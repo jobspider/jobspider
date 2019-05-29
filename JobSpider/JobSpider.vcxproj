@@ -194,6 +194,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="哈哈哈哈哈啊.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="JobSpider.rc" />
