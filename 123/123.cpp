@@ -1,21 +1,16 @@
 ﻿#include"pch.h"
-#include <windows.h>
+#include<Windows.h>
 #include <iostream>
 #include "Wininet.h"
 #pragma comment(lib,"Wininet.lib")
-
-using std::cout;
-using std::endl;
+using namespace std;
 
 //模拟浏览器发送HTTP请求函数
-std::string HttpRequest(char * lpHostName, short sPort, char * lpUrl, char * lpMethod, char * lpPostData, int nPostDataLen)
+string HttpRequest(char * lpHostName, short sPort, char * lpUrl, char * lpMethod, char * lpPostData, int nPostDataLen)
 {
 	HINTERNET hInternet, hConnect, hRequest;
-
 	BOOL bRet;
-
-	std::string strResponse;
-
+	string strResponse;
 	hInternet = NULL;
 	hConnect = NULL;
 	hRequest = NULL;
@@ -58,22 +53,21 @@ Ret0:
 
 	return strResponse;
 }
+/*
 int main()
 {
 	//CString strResponse = HttpRequest("translate.google.com",80,"/translate_t?langpair=en|zh-CN","POST","hl=zh-CN&ie=UTF-8&text=this is me&langpair=en|zh-CN",strlen("hl=zh-CN&ie=UTF-8&text=this is me&langpair=en|zh-CN"));
-	char a[] = "www.baidu.com";
+	
+	char a[] = "search.51job.com";
 	char b[] = "/";
 	char c[] = "GET";
-	std::string strResponse = HttpRequest(a, 80, b, c, NULL, 0);
+	string strResponse = HttpRequest(a, 80, b, c, NULL, 0);
 
 	cout << strResponse.c_str();
 
 	FILE * fp;
-	errno_t t = fopen_s(&fp, "1.txt", "w");
-
+	errno_t t=fopen_s(&fp, "1.txt", "w");
 	fwrite(strResponse.c_str(), 1, strResponse.length(), fp);
-
 	fclose(fp);
-	getchar();
 	return 0;
-}
+}*/
