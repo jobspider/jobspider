@@ -28,7 +28,7 @@ void dialog3::DoDataExchange(CDataExchange* pDX)
 	DDX_Control(pDX, IDC_EDIT2, urlSource);
 	DDX_Control(pDX, IDC_EDIT3, company);
 	DDX_Control(pDX, IDC_EDIT7, salary);
-	DDX_Control(pDX, IDC_EDIT10, contact);
+	//DDX_Control(pDX, IDC_EDIT10, contact);
 	DDX_Control(pDX, IDC_EDIT13, jobInformation);
 	DDX_Control(pDX, IDC_EDIT14, companyInformation);
 	DDX_Control(pDX, IDC_EDIT4, Info1);
@@ -73,7 +73,7 @@ BOOL dialog3::OnInitDialog()
 	//MessageBox(inf.Info.c_str());
 	Info1.SetWindowTextA(inf.Info.c_str());
 	salary.SetWindowTextA(inf.salary.c_str());
-	contact.SetWindowTextA(inf.contact.c_str());
+	//contact.SetWindowTextA(inf.contact.c_str());
 	jobInformation.SetWindowTextA(inf.jobInformation.c_str());
 	companyInformation.SetWindowTextA(inf.companyInformation.c_str());
 

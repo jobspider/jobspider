@@ -27,7 +27,7 @@ public:
 	CEdit company;
 	CEdit Info1;
 	CEdit salary;
-	CEdit contact;
+	//CEdit contact;
 	CEdit jobInformation;
 	CEdit companyInformation;
 	afx_msg void OnEnChangeEdit4();
