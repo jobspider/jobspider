@@ -1,0 +1,3178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <link rel="canonical" href="https://blog.csdn.net/zhangjunjian127/article/details/7913252"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="referrer" content="always">
+    <meta http-equiv="Cache-Control" content="no-siteapp" /><link rel="alternate" media="handheld" href="#" />
+    <meta name="shenma-site-verification" content="5a59773ab8077d4a62bf469ab966a63b_1497598848">
+        <meta name="csdn-baidu-search"  content='{"autorun":true,"install":true,"keyword":"HINTERNET 句柄 - zhangjunjian127的专栏"}'>
+    
+    <link href="https://csdnimg.cn/public/favicon.ico" rel="SHORTCUT ICON">
+    <title>HINTERNET 句柄 - zhangjunjian127的专栏 - CSDN博客</title>
+
+        
+                    <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/detail-70d7522b80.min.css">
+            
+        
+            <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/themes/skin3-template/skin3-template-9b39979775.min.css">
+        <script type="text/javascript">
+        var username = "zhangjunjian127";
+        var blog_address = "https://blog.csdn.net/zhangjunjian127";
+        var static_host = "https://csdnimg.cn/release/phoenix/";
+        var currentUserName = "";
+        var isShowAds = true;
+        var isOwner = false;
+        var loginUrl = "http://passport.csdn.net/account/login?from=https://blog.csdn.net/zhangjunjian127/article/details/7913252"
+        var blogUrl = "https://blog.csdn.net/";
+
+        var curSkin = "skin3-template";
+        // 第四范式所需数据
+        var articleTitles = "HINTERNET 句柄 - zhangjunjian127的专栏";
+        
+        var nickName = "荔-枝-lin";
+        var isCorporate = false;
+        var subDomainBlogUrl = "https://blog.csdn.net/"
+        var digg_base_url = "https://blog.csdn.net/zhangjunjian127/phoenix/comment";
+        var articleDetailUrl = "https://blog.csdn.net/zhangjunjian127/article/details/7913252";
+    </script>
+    <script src="https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js"></script>
+    <script src="//g.csdnimg.cn/??fixed-sidebar/1.1.3/fixed-sidebar.js,track/1.2.6/track.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://csdnimg.cn/public/sandalstrap/1.4/css/sandalstrap.min.css">
+    <style>
+        .MathJax, .MathJax_Message, .MathJax_Preview{
+            display: none
+        }
+    </style>
+</head>
+<body class="nodata " > 
+    <link rel="stylesheet" href="https://csdnimg.cn/public/common/toolbar/content_toolbar_css/content_toolbar.css">
+    <script id="toolbar-tpl-scriptId" src="https://csdnimg.cn/public/common/toolbar/js/content_toolbar.js" type="text/javascript" domain="https://blog.csdn.net/"></script>
+<div id="kp_box_476" data-pid="476" data-track-view='{"mod":"kp_popu_476-1211","con":",,"}' data-track-click='{"mod":"kp_popu_476-1211","con":",,"}'><script src="//csdnimg.cn/public/common/indexSuperise/1.1.1/indexSuperise.js?20190111165312"></script><script>window.csdn.indexSuperise({smallMoveImg:'https://img-bss.csdn.net/1560310123673.png',bigMoveImg:'https://img-bss.csdn.net/1560310120987.png',link:'https://kunyu.csdn.net?p=476&a=1211&c=388&k=&d=1&t=3&dest=https%3A%2F%2Fblog.csdn.net%2Fweixin_38766678%2Farticle%2Fdetails%2F91535753',trackSuperId:476,smallMove:'notMove',trackSId:1211});</script></div><link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/blog_code-c3a0c33d5c.css">
+<link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/vendor/pagination/paging.css">
+<script type="text/javascript">
+	var NEWS_FEED = function(){}
+</script>
+
+<link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/chart-3456820cac.css" />
+<div class="container clearfix" id="mainBox">
+			<div class="recommend-right">
+  <ul class="recommend-fixed-box">
+    
+  </ul>
+</div>	    <main>
+        <div class="blog-content-box">
+  <div class="article-header-box">
+    <div class="article-header">
+      <div class="article-title-box">
+        <span class="article-type type-2 float-left">转</span>        <h1 class="title-article">HINTERNET 句柄</h1>
+      </div>
+      <div class="article-info-box">
+        <div class="article-bar-top">
+                                                  <span class="time">2012年08月27日 18:00:05</span>
+          <a class="follow-nickName" href="https://me.csdn.net/zhangjunjian127" target="_blank">荔-枝-lin</a>
+          <span class="read-count">阅读数 7336</span>
+                  </div>
+        <div class="operating">
+                  </div>
+      </div>
+    </div>
+  </div>
+  <article class="baidu_pl">
+    <div id="article_content" class="article_content clearfix csdn-tracking-statistics" data-pid="blog" data-mod=popu_307 data-dsm="post">
+            <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/ck_htmledit_views-cd6c485e8b.css" />
+                              <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/ck_htmledit_views-cd6c485e8b.css" />
+          <div class="htmledit_views" id="content_views">
+            
+<span></span>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="color:#33cccc;line-height:24px;font-size:16px;">这篇文章的内容可以简单总结如下：</span></p>
+<ol style="border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;"><li style="border-right-width:0px;list-style-type:decimal;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<div style="line-height:1.5;"><span style="line-height:24px;font-size:16px;"><span style="color:#33cccc;line-height:24px;font-size:16px;">WinINet函数创建和使用类型为<strong style="font-weight:bold;">HINTERNET</strong>的句柄</span></span></div>
+</li><li style="border-right-width:0px;list-style-type:decimal;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<div style="line-height:1.5;"><span style="line-height:24px;font-size:16px;"><span style="color:#33cccc;line-height:24px;font-size:16px;"><strong style="font-weight:bold;">HINTERNET</strong>句柄不能与其他类型的句柄互换使用</span></span></div>
+</li><li style="border-right-width:0px;list-style-type:decimal;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<div style="line-height:1.5;"><span style="line-height:24px;font-size:16px;"><span style="color:#33cccc;line-height:24px;font-size:16px;">用<strong style="font-weight:bold;">InternetCloseHandle</strong>关闭<strong style="font-weight:bold;">HINTERNET</strong>句柄</span></span></div>
+</li><li style="border-right-width:0px;list-style-type:decimal;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<div style="line-height:1.5;"><span style="line-height:24px;font-size:16px;"><span style="color:#33cccc;line-height:24px;font-size:16px;">有多种类型的<strong style="font-weight:bold;">HINTERNET</strong>句柄，它们形成一个树结构，如下图所示：</span></span></div>
+</li></ol><p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+ <a href="http://photo.blog.sina.com.cn/showpic.html#blogid=56dee71a0100ft2m&amp;url=http://s16.sinaimg.cn/orignal/56dee71ag723d62f98bff&amp;690" rel="nofollow" style="color:rgb(65,100,111);text-decoration:none;"></a></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><span style="color:#33cccc;line-height:24px;font-size:16px;">图中带阴影的方框创建的<strong style="font-weight:bold;">HINTERNET</strong>句柄被下一级的函数使用；背景空白的方框不创建<strong style="font-weight:bold;">HINTERNET</strong>句柄，仅使用上一级函数创建的句柄。<strong style="font-weight:bold;">HttpSendRequest</strong>、<strong style="font-weight:bold;">HttpSendRequestEx</strong>和<strong style="font-weight:bold;">HttpEndRequest</strong>有些特殊，它们的下层函数不是使用它们创建的<strong style="font-weight:bold;">HINTERNET</strong>句柄，而是<strong style="font-weight:bold;">HttpOpenRequest</strong>创建的句柄，在调用这三个函数后，就可以调用下一级的函数了。</span></span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+ </p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;">本节包含用于WinINet函数的句柄，以及它们的层次结构的信息。</span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><strong style="font-weight:bold;"><span style="line-height:24px;font-size:16px;">关于HINTERNET句柄</span></strong></span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;">WinINet函数创建和使用类型为<strong style="font-weight:bold;">HINTERNET</strong>的句柄。<strong style="font-weight:bold;">HINTERNET</strong>句柄不能与其他类型的句柄互换。因此，<strong style="font-weight:bold;">HINTERNET</strong>句柄不能用于<strong style="font-weight:bold;">ReadFile</strong>或者<strong style="font-weight:bold;">CloseHandle</strong>等函数。同样地，其他类型的句柄也不能用于WinINet函数。比如说，<strong style="font-weight:bold;">CreateFile</strong>返回的句柄不能传递给<strong style="font-weight:bold;">InternetReadFile</strong>。</span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><strong style="font-weight:bold;">InternetCloseHandle</strong>函数用于关闭<strong style="font-weight:bold;">HINTERNET</strong>句柄。注意，句柄值很快被回收重用。因此，如果关闭一个句柄，然后立即生成一个新句柄，则新句柄的值很可能与刚被关闭句柄的值相同。</span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+ </p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><strong style="font-weight:bold;">句柄层次结构</strong></span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><strong style="font-weight:bold;">HINTERNET</strong>句柄形成了一个树结构。<strong style="font-weight:bold;">InternetOpen</strong>函数返回的句柄是树的根节点，<strong style="font-weight:bold;">InternetConnect</strong>函数返回的句柄则占有下一级，而<strong style="font-weight:bold;">FtpOpenFile</strong>、<strong style="font-weight:bold;">FtpFindFirstFile</strong>、<strong style="font-weight:bold;">HttpOpenRequest</strong>、<strong style="font-weight:bold;">GopherOpenFile</strong>和<strong style="font-weight:bold;">GopherFindFirstFile</strong>函数返回的句柄则是叶子节点。</span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;">下图展示了<strong style="font-weight:bold;">HINTERNET</strong>句柄的层次结构。图中每个方框代表返回<strong style="font-weight:bold;">HINTERNET</strong>句柄的一个函数。</span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><img title="HINTERNET句柄" border="0" alt="Functions that create handles" src="" style="border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;" /></span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;">最顶层的是<strong style="font-weight:bold;">InternetOpen</strong>函数，它创建根节点。下一层包括<strong style="font-weight:bold;">InternetOpenUrl</strong>和<strong style="font-weight:bold;">InternetConnect</strong>函数。组成了最后一层的是使用<strong style="font-weight:bold;">InternetConnect</strong>返回的句柄的函数。</span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;">下图展示了依赖于由<strong style="font-weight:bold;">InternetOpenUrl</strong>创建的句柄的函数。带阴影的方框代表返回<strong style="font-weight:bold;">HINTERNET</strong>句柄的函数，而空白方框代表使用<strong style="font-weight:bold;">HINTERNET</strong>句柄的函数。</span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><img title="HINTERNET句柄" border="0" alt="Functions that use the InternetOpenUrl handle" src="" style="border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;" /></span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><strong style="font-weight:bold;">InternetQueryDataAvailable</strong>、<strong style="font-weight:bold;">InternetReadFile</strong>和<strong style="font-weight:bold;">InternetSetFilePointer</strong>函数使用<strong style="font-weight:bold;">InternetOpenUrl</strong>创建的<strong style="font-weight:bold;">HINTERNET</strong>句柄。</span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+ </p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><strong style="font-weight:bold;">FTP层次结构</strong></span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;">下图展示了依赖于<span style="line-height:24px;font-size:16px;"><span style="color:#000000;line-height:24px;font-size:16px;"><strong style="font-weight:bold;">InternetConnect</strong></span></span>返回的FTP会话句柄的FTP函数。带阴影的方框代表返回<strong style="font-weight:bold;">HINTERNET</strong>句柄的函数，空白方框表示使用它们所依赖的函数创建的<strong style="font-weight:bold;">HINTERNET</strong>句柄的函数。</span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><img title="HINTERNET句柄" border="0" alt="Functions that use the FTP session handle" src="" style="border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;" /></span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><strong style="font-weight:bold;">FtpCreateDirectory</strong>、<strong style="font-weight:bold;">FtpDeleteFile</strong>、<strong style="font-weight:bold;">FtpGetCurrentDirectory</strong>、<strong style="font-weight:bold;">FtpGetFile</strong>、<strong style="font-weight:bold;">FtpPutFile</strong>、<strong style="font-weight:bold;">FtpRemoveDirectory</strong>、<strong style="font-weight:bold;">FtpRenameFile</strong>和<strong style="font-weight:bold;">FtpSetCurrentDirectory</strong>函数都使用<strong style="font-weight:bold;">InternetConnect</strong>创建的<strong style="font-weight:bold;">HINTERNET</strong>句柄。</span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;">下图展示了返回句柄的两个FTP函数，以及依赖于它们的函数。带阴影的方框代表返回<strong style="font-weight:bold;">HINTERNET</strong>句柄的函数，空白方框表示使用它们所依赖的函数创建的<strong style="font-weight:bold;">HINTERNET</strong>句柄的函数。 </span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><img title="HINTERNET句柄" border="0" alt="Functions that use the handle from FtpOpen and FtpFindFirstFile" src="" style="border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;" /></span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><strong style="font-weight:bold;">InternetFindNextFile</strong>函数依赖于<strong style="font-weight:bold;">FtpFindFirstFile</strong>创建的句柄；而<strong style="font-weight:bold;">InternetReadFile</strong>和<strong style="font-weight:bold;">InternetWriteFile</strong>使用<strong style="font-weight:bold;">FtpOpenFile</strong>创建的句柄。</span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+ </p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><span style="line-height:24px;font-size:16px;"><strong style="font-weight:bold;"><span style="line-height:24px;font-size:16px;">Gopher层次结构</span></strong></span></span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;">下图显示了用于Gopher协议的函数。带阴影的方框表示返回<strong style="font-weight:bold;">HINTERNET</strong>句柄的函数，空白方框表示使用它们所依赖的函数创建的<strong style="font-weight:bold;">HINTERNET</strong>句柄的函数。 </span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><img title="HINTERNET句柄" border="0" alt="Gopher related functions" src="" style="border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;" /></span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><strong style="font-weight:bold;">GopherGetAttribute</strong>函数依赖于<strong style="font-weight:bold;">InternetConnect</strong>创建的句柄。<strong style="font-weight:bold;">InternetFindNextFile</strong>使用<strong style="font-weight:bold;">GopherFindFirstFile</strong>创建的句柄。<strong style="font-weight:bold;">GopherOpenFile</strong>创建的句柄被<strong style="font-weight:bold;">InternetQueryDataAvailable</strong>和<strong style="font-weight:bold;">InternetReadFile</strong>使用。</span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+ </p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><strong style="font-weight:bold;">HTTP层次结构</strong></span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;">下图显示了用于HTTP协议的函数。带阴影的方框表示返回<strong style="font-weight:bold;">HINTERNET</strong>句柄的函数，空白方框表示使用它们所依赖的函数创建的<strong style="font-weight:bold;">HINTERNET</strong>句柄的函数。  </span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><img title="HINTERNET句柄" border="0" alt="Functions that use the handle from HttpOpenRequest" src="" style="border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;" /></span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><strong style="font-weight:bold;">HttpAddRequestHeaders</strong>、<strong style="font-weight:bold;">HttpQueryInfo</strong>、<strong style="font-weight:bold;">HttpSendRequest</strong>、<strong style="font-weight:bold;">HttpSendRequestEx</strong>和<strong style="font-weight:bold;">InternetErrorDlg</strong>函数依赖于<strong style="font-weight:bold;">HttpOpenRequest</strong>创建的句柄。</span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;">下图展示了使用由<strong style="font-weight:bold;">HttpOpenRequest</strong>创建、然后被<strong style="font-weight:bold;">HttpSendRequest</strong>发送的句柄的函数。带阴影的方框表示返回<strong style="font-weight:bold;">HINTERNET</strong>句柄的函数，空白方框表示使用它们所依赖的函数创建的<strong style="font-weight:bold;">HINTERNET</strong>句柄的函数。  </span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><img title="HINTERNET句柄" border="0" alt="Functions that use the handle after HttpSendRequest" src="" style="border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;" /></span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;">由<strong style="font-weight:bold;">HttpOpenRequest</strong>返回的句柄被<strong style="font-weight:bold;">HttpSendRequest</strong>使用后，就可以被<strong style="font-weight:bold;">InternetQueryDataAvailable</strong>、<strong style="font-weight:bold;">InternetReadFile</strong>和<strong style="font-weight:bold;">InternetSetFilePointer</strong>使用了。 </span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><img title="HINTERNET句柄" border="0" alt="Functions that use the handle after HttpSendRequestEx" src="" style="border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;" /></span></p>
+<p style="line-height:1.5;border-right-width:0px;list-style-type:none;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;">
+<span style="line-height:24px;font-size:16px;"><span style="line-height:24px;font-size:16px;">由<strong style="font-weight:bold;">HttpOpenRequest</strong>返回的句柄，在被<strong style="font-weight:bold;">HttpSendRequestEx</strong>使用后，就可以被<strong style="font-weight:bold;">HttpEndRequest</strong>、<strong style="font-weight:bold;">InternetReadFileEx</strong>和<strong style="font-weight:bold;">InternetWriteFile</strong>使用了。调用<strong style="font-weight:bold;">HttpEndRequest</strong>之后，句柄可以被<strong style="font-weight:bold;">InternetReadFile</strong>、<strong style="font-weight:bold;">InternetSetFilePointer</strong>和<strong style="font-weight:bold;">InternetQueryDataAvailable</strong></span>使用。</span></p>
+          </div>
+                  </div>
+  </article>
+</div>
+
+<div class="hide-article-box hide-article-pos text-center">
+      <a class="" id="btn-readmore" data-track-view='{"mod":"popu_376","con":",https://blog.csdn.net/zhangjunjian127/article/details/7913252,"}' data-track-click='{"mod":"popu_376","con":",https://blog.csdn.net/zhangjunjian127/article/details/7913252,"}'>
+    展开阅读全文
+    <svg class="icon chevrondown" aria-hidden="true">
+        <use xlink:href="#csdnc-chevrondown"></use>
+      </svg>
+    </a>
+    </div>
+<script>
+  $(".MathJax").remove();
+  if ($('div.markdown_views pre.prettyprint code.hljs').length > 0) {
+    $('div.markdown_views')[0].className = 'markdown_views';
+  }
+</script>        <div id="dmp_ad_58"><div id="kp_box_58" data-pid="58" data-track-view='{"mod":"kp_popu_58-386","con":",,"}' data-track-click='{"mod":"kp_popu_58-386","con":",,"}'><div style="width:100%;background:#fff;">
+<script type="text/javascript" src="//rabc1.iteye.com/production/resource/web/6xwm4l.js?lg=ydmpioh"></script>
+</div></div></div>        <a id="commentBox"></a>
+<div class="comment-box">
+	
+	<div class="comment-edit-box d-flex">
+		<a id="commentsedit"></a>
+		<div class="user-img">
+			<a href="javascript:void(0);" target="_blank">
+				<img class="show_loginbox" src="//g.csdnimg.cn/static/user-img/anonymous-User-img.png">
+			</a>
+		</div>
+		<form id="commentform">
+			<input type="hidden" id="comment_replyId">
+			<textarea class="comment-content" name="comment_content" id="comment_content" placeholder="想对作者说点什么"></textarea>
+			<div class="opt-box"> <!-- d-flex -->
+				<div id="ubbtools" class="add_code">
+					<a href="#insertcode" code="code" target="_self"><i class="icon iconfont icon-daima"></i></a>
+				</div>
+				<input type="hidden" id="comment_replyId" name="comment_replyId">
+				<input type="hidden" id="article_id" name="article_id" value="7913252">
+				<input type="hidden" id="comment_userId" name="comment_userId" value="">
+				<input type="hidden" id="commentId" name="commentId" value="">
+				<div style="display: none;" class="csdn-tracking-statistics tracking-click" data-mod="popu_384"><a href="#" target="_blank" class="comment_area_btn">发表评论</a></div>
+				<div class="dropdown" id="myDrap">
+					<a class="dropdown-face d-flex align-items-center" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					<div class="txt-selected text-truncate">添加代码片</div>
+					<svg class="icon d-block" aria-hidden="true">
+						<use xlink:href="#csdnc-triangledown"></use>
+					</svg>
+					</a>
+					<ul class="dropdown-menu" id="commentCode" aria-labelledby="drop4">
+						<li><a data-code="html">HTML/XML</a></li>
+						<li><a data-code="objc">objective-c</a></li>
+						<li><a data-code="ruby">Ruby</a></li>
+						<li><a data-code="php">PHP</a></li>
+						<li><a data-code="csharp">C</a></li>
+						<li><a data-code="cpp">C++</a></li>
+						<li><a data-code="javascript">JavaScript</a></li>
+						<li><a data-code="python">Python</a></li>
+						<li><a data-code="java">Java</a></li>
+						<li><a data-code="css">CSS</a></li>
+						<li><a data-code="sql">SQL</a></li>
+						<li><a data-code="plain">其它</a></li>
+					</ul>
+				</div>  
+				<div class="right-box">
+					<span id="tip_comment" class="tip">还能输入<em>1000</em>个字符</span>
+					<input type="submit" class="btn btn-sm btn-red btn-comment" value="发表评论">
+				</div>
+			</div>
+		</form>
+	</div>
+
+		<div class="comment-list-container">
+		<a id="comments"></a>
+		<div class="comment-list-box">
+		</div>
+		<div id="commentPage" class="pagination-box d-none"></div>
+		<div class="opt-box text-center">
+			<div class="btn btn-sm btn-link-blue" id="btnMoreComment"></div>
+		</div>
+	</div>
+</div>
+        <div class="recommend-box">
+                            <div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/kusoul/article/details/5914884,BlogCommendFromThirdServiceAll_0"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/kusoul/article/details/5914884" target="_blank" title="HINTERNET句柄">
+		<h4 class="text-truncate oneline">
+				<em>HINTERNET</em><em>句柄</em>		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">09-29</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1294</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/kusoul/article/details/5914884" target="_blank" title="HINTERNET句柄">
+				<span class="desc oneline">HINTERNET句柄包含了WinINew函数所使用句柄的相关信息和工作等级。由InternetOpen返回的HINTERNET作为根句柄。由InternetConnect返回的作为下一级句柄。由Ft...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/kusoul">来自：	<span class="blog_title"> kusoul的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/edger2heaven/article/details/45639997,BlogCommendFromThirdServiceAll_1"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/edger2heaven/article/details/45639997" target="_blank" title="WinHTTP中的HINTERNET句柄">
+		<h4 class="text-truncate oneline">
+				WinHTTP中的<em>HINTERNET</em><em>句柄</em>		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">05-11</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1065</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/edger2heaven/article/details/45639997" target="_blank" title="WinHTTP中的HINTERNET句柄">
+				<span class="desc oneline">WinHTTP中的HINTERNET句柄MicrosoftWindowsHTTPServices(WinHTTP)useshandlestokeeptrackofsettingsandinformat...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/edger2heaven">来自：	<span class="blog_title"> edger2heaven的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/dragoo1/article/details/7800249,BlogCommendFromThirdServiceAll_2"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/dragoo1/article/details/7800249" target="_blank" title="C++发送HTTP请求---亲测可行(转)">
+		<h4 class="text-truncate oneline">
+				C++发送HTTP请求---亲测可行(转)		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">07-29</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					3万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/dragoo1/article/details/7800249" target="_blank" title="C++发送HTTP请求---亲测可行(转)">
+				<span class="desc oneline">转自：http://hi.baidu.com/benbearlove/item/1671c23017575825b3c0c53f环境:xpsp3,vs2008#include#include#incl...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/dragoo1">来自：	<span class="blog_title"> dragoo1的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/wzx19840423/article/details/6536342,BlogCommendFromThirdServiceAll_3"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/wzx19840423/article/details/6536342" target="_blank" title="使用WinInet实现http协议">
+		<h4 class="text-truncate oneline">
+				使用WinInet实现http协议		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-10</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/wzx19840423/article/details/6536342" target="_blank" title="使用WinInet实现http协议">
+				<span class="desc oneline">//GET方法#include#include#include#pragmacomment(lib,&quot;WinInet.lib&quot;)intmain(){ HINTERNEThInternet=Intern...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/wzx19840423">来自：	<span class="blog_title"> wzx19840423的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_59" data-pid="59" data-track-view='{"mod":"kp_popu_59-78","con":",,"}' data-track-click='{"mod":"kp_popu_59-78","con":",,"}'><script type="text/javascript">
+    (function() {
+        var s = "_" + Math.random().toString(36).slice(2);
+        document.write('<div style="" id="' + s + '"></div>');
+        (window.slotbydup = window.slotbydup || []).push({
+            id: "u3491668",
+            container:  s
+        });
+    })();
+</script>
+<!-- 多条广告如下脚本只需引入一次 -->
+<script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/c.js" async="async" defer="defer" ></script></div></div>
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/cciey/article/details/4173984,BlogCommendFromThirdServiceAll_4"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/cciey/article/details/4173984" target="_blank" title="CheckUrl()">
+		<h4 class="text-truncate oneline">
+				CheckUrl()		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">05-12</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					849</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/cciey/article/details/4173984" target="_blank" title="CheckUrl()">
+				<span class="desc oneline">BOOLCTest::CheckUrl(CString&amp;url){ HINTERNET  hSession,hFile;//  hRequest;   DWORD  dwCodeLen;   DWOR...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/cciey">来自：	<span class="blog_title"> cciey的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box  recommend-other-item-box"  data-track-click='{"mod":"popu_387","con":",https://bbs.csdn.net/topics/10065052,BlogCommendFromBaidu_5"}'>
+	<a href="https://bbs.csdn.net/topics/10065052" target="_blank">
+		<h4 class="text-truncate oneline">
+				求教：我学WinInet,编译的时候出现<em>HINTERNET</em>类型没定义，请教是否要加特定的头文件或其他问题		</h4>
+		<div class="info-box d-flex align-content-center">
+				<span class="date">03-25</span>
+		</div>
+		<p class="content oneline">
+			<span class="desc oneline">请教HINTERNET，和其他的WinInetAPI使用时应加什么样的头文件或其他要注意的 谢谢</span>
+							<span class="type-show type-show-bbs">论坛</span>
+					</p>
+	</a>
+
+</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/love3s/article/details/7936315,BlogCommendFromBaidu_6"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/love3s/article/details/7936315" target="_blank" title="C++调用HTTP实现方式">
+		<h4 class="text-truncate oneline">
+				C++调用HTTP实现方式		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">09-03</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/love3s/article/details/7936315" target="_blank" title="C++调用HTTP实现方式">
+				<span class="desc oneline">Http访问有两种方式，GET和POST，就编程来说GET方式相对简单点，它不用向服务器提交数据，程序中使用POST方式，提交数据并从服务器获取返回值。为实现Http访问，微软提供了二套API：Win...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/love3s">来自：	<span class="blog_title"> 离,路的尽头还很远...</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box  recommend-other-item-box"  data-track-click='{"mod":"popu_387","con":",https://bbs.csdn.net/topics/20113595,BlogCommendFromBaidu_7"}'>
+	<a href="https://bbs.csdn.net/topics/20113595" target="_blank">
+		<h4 class="text-truncate oneline">
+				如何获取一个URL文件的大小？？？		</h4>
+		<div class="info-box d-flex align-content-center">
+				<span class="date">11-14</span>
+		</div>
+		<p class="content oneline">
+			<span class="desc oneline">CStdioFile* pStdFile = InetSession.OpenURL( &quot;ftp://10.1.1.1/file.dat&quot;, 1, INTERNET_FLAG_TRANSFER_BIN</span>
+							<span class="type-show type-show-bbs">论坛</span>
+					</p>
+	</a>
+
+</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/analogous_love/article/details/72515002,BlogCommendFromBaidu_8"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/analogous_love/article/details/72515002" target="_blank" title="WinInet使用详解">
+		<h4 class="text-truncate oneline">
+				WinInet使用详解		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">05-19</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					6803</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/analogous_love/article/details/72515002" target="_blank" title="WinInet使用详解">
+				<span class="desc oneline">WinInet是windows平台对socket进行一层封装，用来直接处理http/ftp/Gopher协议的一套windowsAPI。我第一次接触这个是在一个客户那里，当时因为客户都需要使用http...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/analogous_love">来自：	<span class="blog_title"> 左雪菲的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_60" data-pid="60" data-track-view='{"mod":"kp_popu_60-43","con":",,"}' data-track-click='{"mod":"kp_popu_60-43","con":",,"}'><div id="three_ad8" class="mediav_ad" ></div>
+<script type="text/javascript" src="//static.mediav.com/js/mvf_news_feed.js"></script>
+<script>
+                                               NEWS_FEED({
+                w: 900,
+                h : 84,
+                showid : 'Afihld',
+                placeholderId: "three_ad8",
+                inject : 'define',
+                define : {
+                    imagePosition : 'left',
+                    imageBorderRadius : 3,
+                    imageWidth: 90,
+                    imageHeight: 60,
+                    imageFill : 'clip',
+                    displayImage : true,
+                    displayTitle : true,
+                    titleFontSize: 18,
+                    titleFontColor: '#000',
+                    titleFontFamily : 'Lato,-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif',
+                    titleFontWeight: 'bold',
+                    titlePaddingTop : 0,
+                    titlePaddingRight : 0,
+                    titlePaddingBottom : 5,
+                    titlePaddingLeft : 16,
+                    displayDesc : true,
+                    descFontSize: 14,
+                    descFontColor: '#8e959a',
+                    descFontFamily : 'Microsoft Yahei',
+                    paddingTop : 10,
+                    paddingRight : 0,
+                    paddingBottom : 0,
+                    paddingLeft : 0,
+                    backgroundColor: '#fff',
+                    hoverColor: '#000'
+                      }
+                  })
+                                        </script></div></div>
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/LostSpeed/article/details/46373967,BlogCommendFromBaidu_9"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/LostSpeed/article/details/46373967" target="_blank" title="InternetQueryDataAvailable 读取字节数为0的解决方法">
+		<h4 class="text-truncate oneline">
+				InternetQueryDataAvailable 读取字节数为0的解决方法		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-05</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					2114</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/LostSpeed/article/details/46373967" target="_blank" title="InternetQueryDataAvailable 读取字节数为0的解决方法">
+				<span class="desc oneline">从远程读取数据时,一般是调用2个函数的组合: InternetQueryDataAvailable+ InternetReadFile只有 InternetQueryDataAvailable查到远端...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/LostSpeed">来自：	<span class="blog_title"> talk is cheap;Later equals never;如果对你有帮助，点赞就行，没有建设性的建议请别留言:P</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/xyxdasnjss/article/details/7506843,BlogCommendFromBaidu_10"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/xyxdasnjss/article/details/7506843" target="_blank" title="ASIHTTPRequest使用指南---&lt;&lt;翻译稿&gt;&gt;">
+		<h4 class="text-truncate oneline">
+				ASIHTTPRequest使用指南---&lt;&lt;翻译稿&gt;&gt;		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">04-26</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1009</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/xyxdasnjss/article/details/7506843" target="_blank" title="ASIHTTPRequest使用指南---&lt;&lt;翻译稿&gt;&gt;">
+				<span class="desc oneline">转自:http://www.devdiv.com/forum.php?mod=viewthread&amp;tid=93741&amp;extra=&amp;authorid=21666&amp;page=1创建一个同步请求这是最简...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/xyxdasnjss">来自：	<span class="blog_title"> xyxdasnjss的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+			<div class="recommend-item-box blog-expert-recommend-box">
+			<div class="d-flex">
+				<div class="blog-expert-recommend">
+					<div class="blog-expert">
+						<div class="blog-expert-flexbox"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/bobo1394/article/details/446673,BlogCommendFromBaidu_11"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/bobo1394/article/details/446673" target="_blank" title="用WinINet Api 开发FTP客户端 （一）">
+		<h4 class="text-truncate oneline">
+				用WinINet Api 开发FTP客户端 （一）		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">08-05</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					3789</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/bobo1394/article/details/446673" target="_blank" title="用WinINet Api 开发FTP客户端 （一）">
+				<span class="desc oneline">FTPSessionsFTP会话TheWin32Internetfunctionscanbeusedtoprovideapplicationswiththeabilitytonavigateandma...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/bobo1394">来自：	<span class="blog_title"> 洪虎专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/feier7501/article/details/10126393,BlogCommendFromBaidu_12"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/feier7501/article/details/10126393" target="_blank" title="C++打开一个URL">
+		<h4 class="text-truncate oneline">
+				C++打开一个URL		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">08-20</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					5609</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/feier7501/article/details/10126393" target="_blank" title="C++打开一个URL">
+				<span class="desc oneline">代码如下：#include#include#include#pragmacomment(lib,&quot;Wininet.lib&quot;)#defineUSER_AGENTL&quot;Mozilla/4.0(compati...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/feier7501">来自：	<span class="blog_title"> 天元喜羊羊的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/thanklife/article/details/71158304,BlogCommendFromBaidu_13"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/thanklife/article/details/71158304" target="_blank" title="WININET函数保持sessionID不过期">
+		<h4 class="text-truncate oneline">
+				WININET函数保持sessionID不过期		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">05-04</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					268</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/thanklife/article/details/71158304" target="_blank" title="WININET函数保持sessionID不过期">
+				<span class="desc oneline">WININET函数保持sessionID不过期当访问一个PHP页面时，如果php 页面有session创建，那个会在客服端的cookie设置一个sessionID，并设置这个cookie失效的时间，这...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/thanklife">来自：	<span class="blog_title"> thanklife的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_61" data-pid="61" data-track-view='{"mod":"kp_popu_61-557","con":",,"}' data-track-click='{"mod":"kp_popu_61-557","con":",,"}'><div id="three_ad13" class="mediav_ad" ></div>
+<script type="text/javascript" src="//static.mediav.com/js/mvf_news_feed.js"></script>
+<script>
+                                               NEWS_FEED({
+                w: 852,
+                h : 60,
+                showid : 'GNKXx7',
+                placeholderId: "three_ad13",
+                inject : 'define',
+                define : {
+                    imagePosition : 'left',
+                    imageBorderRadius : 3,
+                    imageWidth: 90,
+                    imageHeight: 60,
+                    imageFill : 'clip',
+                    displayImage : true,
+                    displayTitle : true,
+                    titleFontSize: 18,
+                    titleFontColor: '#000',
+                    titleFontFamily : 'Lato,-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif',
+                    titleFontWeight: 'bold',
+                    titlePaddingTop : 0,
+                    titlePaddingRight : 0,
+                    titlePaddingBottom : 5,
+                    titlePaddingLeft : 16,
+                    displayDesc : true,
+                    descFontSize: 14,
+                    descFontColor: '#8e959a',
+                    descFontFamily : 'Microsoft Yahei',
+                    paddingTop : 0,
+                    paddingRight : 0,
+                    paddingBottom : 0,
+                    paddingLeft : 0,
+                    backgroundColor: '#fff',
+                    hoverColor: '#000'
+                      }
+                  })
+                                        </script></div></div>
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/BloodRose1991/article/details/24231997,BlogCommendFromBaidu_14"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/BloodRose1991/article/details/24231997" target="_blank" title="网络下载文件小程序（非原创，他人所写）">
+		<h4 class="text-truncate oneline">
+				网络下载文件小程序（非原创，他人所写）		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">04-21</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					961</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/BloodRose1991/article/details/24231997" target="_blank" title="网络下载文件小程序（非原创，他人所写）">
+				<span class="desc oneline">#include#include#include#include#include#include#include#include#include#defineINVALID_FILE_ATTRIBUT...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/BloodRose1991">来自：	<span class="blog_title"> 小黄人</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/gll110/10261707,BlogCommendFromQuerySearch_15"}'>
+		<a href="https://download.csdn.net/download/gll110/10261707" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						<em>句柄</em>精灵软件					</h4>
+					<span class="data float-right">02-27</span>
+				</div>
+				<div class="desc oneline">
+						ViewWizard(句柄查看精灵)是一个窗口辅助工具，用于获得窗口各种信息和属性。其中包括窗口类，大小，样式，状态，字体等相关内容。此外，它可以控制一个窗口的状态，比如显示或隐藏，置顶，透明，更改样式等等。
+
+功能介绍：
+窗口样式编辑器...				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/qiqixs/10568478,BlogCommendFromQuerySearch_16"}'>
+		<a href="https://download.csdn.net/download/qiqixs/10568478" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						c#模仿按键抓抓抓取<em>句柄</em>					</h4>
+					<span class="data float-right">07-27</span>
+				</div>
+				<div class="desc oneline">
+						c#模仿按键抓抓抓取句柄，用过按键精灵的人都知道里面有个按键抓抓可以抓取到指定的句柄，c#也可以做				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/qq_43093396/10793452,BlogCommendFromQuerySearch_17"}'>
+		<a href="https://download.csdn.net/download/qq_43093396/10793452" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						<em>句柄</em>查看工具spy++					</h4>
+					<span class="data float-right">11-19</span>
+				</div>
+				<div class="desc oneline">
+						Spy++ (SPYXX.EXE) 是一个基于 Win32 的实用工具，它提供系统的进程、线程、窗口和窗口消息的图形视图。使用 Spy++ 可以执行下列操作： 显示系统对象（包括进程、线程和窗口）之间关系的图形树。 搜索指定的窗口、线程、...				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/jn40105/7249985,BlogCommendFromQuerySearch_18"}'>
+		<a href="https://download.csdn.net/download/jn40105/7249985" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						C# <em>句柄</em>截图（窗口截图）					</h4>
+					<span class="data float-right">04-25</span>
+				</div>
+				<div class="desc oneline">
+						根据窗口名称获取窗口句柄，通过句柄对窗口截图并保存，源码真实可用！				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_62" data-pid="62" data-track-view='{"mod":"kp_popu_62-556","con":",,"}' data-track-click='{"mod":"kp_popu_62-556","con":",,"}'><div id="three_ad18" class="mediav_ad" ></div>
+<script type="text/javascript" src="//static.mediav.com/js/mvf_news_feed.js"></script>
+<script>
+                                               NEWS_FEED({
+                w: 852,
+                h : 60,
+                showid : 'Afihld',
+                placeholderId: "three_ad18",
+                inject : 'define',
+                define : {
+                    imagePosition : 'left',
+                    imageBorderRadius : 3,
+                    imageWidth: 90,
+                    imageHeight: 60,
+                    imageFill : 'clip',
+                    displayImage : true,
+                    displayTitle : true,
+                    titleFontSize: 18,
+                    titleFontColor: '#000',
+                    titleFontFamily : 'Lato,-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif',
+                    titleFontWeight: 'bold',
+                    titlePaddingTop : 0,
+                    titlePaddingRight : 0,
+                    titlePaddingBottom : 5,
+                    titlePaddingLeft : 16,
+                    displayDesc : true,
+                    descFontSize: 14,
+                    descFontColor: '#8e959a',
+                    descFontFamily : 'Microsoft Yahei',
+                    paddingTop : 0,
+                    paddingRight : 0,
+                    paddingBottom : 0,
+                    paddingLeft : 0,
+                    backgroundColor: '#fff',
+                    hoverColor: '#000'
+                      }
+                  })
+                                        </script></div></div>
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/ztmaster/9460582,BlogCommendFromQuerySearch_19"}'>
+		<a href="https://download.csdn.net/download/ztmaster/9460582" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						C#利用<em>句柄</em>操作窗口					</h4>
+					<span class="data float-right">03-14</span>
+				</div>
+				<div class="desc oneline">
+						C#利用句柄操作窗口				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/lanjiangzhou/article/details/44784321,BlogCommendFromThirdServiceAll_20"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/lanjiangzhou/article/details/44784321" target="_blank" title="C++ 实现读取URL中的源码">
+		<h4 class="text-truncate oneline">
+				C++ 实现读取URL中的源码		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">03-31</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					2514</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/lanjiangzhou/article/details/44784321" target="_blank" title="C++ 实现读取URL中的源码">
+				<span class="desc oneline">#include#include#include#pragmacomment(lib,&quot;Wininet.lib&quot;)#includeusingnamespacestd;intmain(intargc,c...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/lanjiangzhou">来自：	<span class="blog_title"> ZhouRush</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/skilledprogrammer/article/details/6782683,BlogCommendFromThirdServiceAll_21"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/skilledprogrammer/article/details/6782683" target="_blank" title="WinInet编程详解">
+		<h4 class="text-truncate oneline">
+				WinInet编程详解		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">09-16</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					9165</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/skilledprogrammer/article/details/6782683" target="_blank" title="WinInet编程详解">
+				<span class="desc oneline">一般而言，开发Internet服务客户端程序的目的是通过Internet协议（HTTP，FTP）获取网络数据源的信息，微软提供了专门的Win32Internet扩展接口，也就是WinInet。1使用W...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/skilledprogrammer">来自：	<span class="blog_title"> 一只牛的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/warrially/article/details/8003124,BlogCommendFromThirdServiceAll_22"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/warrially/article/details/8003124" target="_blank" title="Delphi 使用WinInet 进行下载">
+		<h4 class="text-truncate oneline">
+				Delphi 使用WinInet 进行下载		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">09-21</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					4656</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/warrially/article/details/8003124" target="_blank" title="Delphi 使用WinInet 进行下载">
+				<span class="desc oneline">WinInetDownLoad('http://下载地名','c:\本地文件名')引用 unitxHttpGetThread;interfaceconstMAXBLOCKSIZE=1024;funct...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/warrially">来自：	<span class="blog_title"> warrially的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/wag2765/article/details/50581155,BlogCommendFromBaidu_23"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/wag2765/article/details/50581155" target="_blank" title="使用WinINet发送HTTP请求并获取数据[原]">
+		<h4 class="text-truncate oneline">
+				使用WinINet发送HTTP请求并获取数据[原]		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">01-25</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1345</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/wag2765/article/details/50581155" target="_blank" title="使用WinINet发送HTTP请求并获取数据[原]">
+				<span class="desc oneline">BwWinINet.h#pragmaonce#pragmacomment(lib,&quot;Wininet.lib&quot;)#pragmacomment(lib,&quot;strsafe.lib&quot;)#includeWind...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/wag2765">来自：	<span class="blog_title"> 玄冬Wong</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_63" data-pid="63" data-track-view='{"mod":"kp_popu_63-555","con":",,"}' data-track-click='{"mod":"kp_popu_63-555","con":",,"}'><div id="three_ad23" class="mediav_ad" ></div>
+<script type="text/javascript" src="//static.mediav.com/js/mvf_news_feed.js"></script>
+<script>
+                                               NEWS_FEED({
+                w: 852,
+                h : 60,
+                showid : 'GNKXx7',
+                placeholderId: "three_ad23",
+                inject : 'define',
+                define : {
+                    imagePosition : 'left',
+                    imageBorderRadius : 3,
+                    imageWidth: 90,
+                    imageHeight: 60,
+                    imageFill : 'clip',
+                    displayImage : true,
+                    displayTitle : true,
+                    titleFontSize: 18,
+                    titleFontColor: '#000',
+                    titleFontFamily : 'Lato,-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif',
+                    titleFontWeight: 'bold',
+                    titlePaddingTop : 0,
+                    titlePaddingRight : 0,
+                    titlePaddingBottom : 5,
+                    titlePaddingLeft : 16,
+                    displayDesc : true,
+                    descFontSize: 14,
+                    descFontColor: '#8e959a',
+                    descFontFamily : 'Microsoft Yahei',
+                    paddingTop : 0,
+                    paddingRight : 0,
+                    paddingBottom : 0,
+                    paddingLeft : 0,
+                    backgroundColor: '#fff',
+                    hoverColor: '#000'
+                      }
+                  })
+                                        </script></div></div>
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/VHeroin/article/details/52687329,BlogCommendFromBaidu_24"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/VHeroin/article/details/52687329" target="_blank" title="在InternetReadFile之前">
+		<h4 class="text-truncate oneline">
+				在InternetReadFile之前		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">09-28</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1123</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/VHeroin/article/details/52687329" target="_blank" title="在InternetReadFile之前">
+				<span class="desc oneline">测试WinINet的chunked方式传输数据。自己写的服务端给客户端返回HttpHeader+HttpBody的时候,如果Header和Body是一个块发给WinINet客户端的时候，WinINet...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/VHeroin">来自：	<span class="blog_title"> VHeroin的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/cheng448208985/article/details/60746061,BlogCommendFromBaidu_25"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/cheng448208985/article/details/60746061" target="_blank" title="使用WinInet访问没有证书的Https (GET/POST)">
+		<h4 class="text-truncate oneline">
+				使用WinInet访问没有证书的Https (GET/POST)		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">03-07</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					335</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/cheng448208985/article/details/60746061" target="_blank" title="使用WinInet访问没有证书的Https (GET/POST)">
+				<span class="desc oneline">[cpp] viewplain copy#include   #include   #include   #pragma comment(lib,&quot;wininet.lib&quot;)  #define TRA...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/cheng448208985">来自：	<span class="blog_title"> cheng448208985的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/Joe_wang/article/details/5968954,BlogCommendFromBaidu_26"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/Joe_wang/article/details/5968954" target="_blank" title="(转）VB WinInet 函数用法详解">
+		<h4 class="text-truncate oneline">
+				(转）VB WinInet 函数用法详解		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">10-27</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					3764</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/Joe_wang/article/details/5968954" target="_blank" title="(转）VB WinInet 函数用法详解">
+				<span class="desc oneline">WinInetWinInet（「WindowsInternet」）API帮助程序员使用三个常见的Internet协议，这三个协议是：用于WorldWideWeb万维网的超文本传输协议（HTTP：Hyp...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/Joe_wang">来自：	<span class="blog_title"> Joe_wang的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/xbgprogrammer/article/details/52778461,BlogCommendFromBaidu_27"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/xbgprogrammer/article/details/52778461" target="_blank" title="WinInet随笔">
+		<h4 class="text-truncate oneline">
+				WinInet随笔		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">10-10</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1140</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/xbgprogrammer/article/details/52778461" target="_blank" title="WinInet随笔">
+				<span class="desc oneline">Wininet是微软提供的利用FTP、HTTP协议访问Internet资源的API接口，接口处理底层协议的的变化，例如代理服务器，从而使利用winiet的应用程序具有一直的行为。使用Wininet最知...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/xbgprogrammer">来自：	<span class="blog_title"> xbgprogrammer的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/cddchina/article/details/38727545,BlogCommendFromBaidu_28"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/cddchina/article/details/38727545" target="_blank" title="FTP API函数">
+		<h4 class="text-truncate oneline">
+				FTP API函数		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">08-21</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					3718</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/cddchina/article/details/38727545" target="_blank" title="FTP API函数">
+				<span class="desc oneline">API函数 FTP函数描述 InternetOpen初始化Win32internet InternetConnect打开一个FTP,HTTP,orGopher应用会话 FtpCreateDirecto...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/cddchina">来自：	<span class="blog_title"> cddchina的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_64" data-pid="64" data-track-view='{"mod":"kp_popu_64-81","con":",,"}' data-track-click='{"mod":"kp_popu_64-81","con":",,"}'><div id="three_ad28" class="mediav_ad" ></div>
+<script type="text/javascript" src="//static.mediav.com/js/mvf_news_feed.js"></script>
+<script>
+                                               NEWS_FEED({
+                w: 852,
+                h : 60,
+                showid : 'Afihld',
+                placeholderId: "three_ad28",
+                inject : 'define',
+                define : {
+                    imagePosition : 'left',
+                    imageBorderRadius : 3,
+                    imageWidth: 90,
+                    imageHeight: 60,
+                    imageFill : 'clip',
+                    displayImage : true,
+                    displayTitle : true,
+                    titleFontSize: 18,
+                    titleFontColor: '#000',
+                    titleFontFamily : 'Lato,-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif',
+                    titleFontWeight: 'bold',
+                    titlePaddingTop : 0,
+                    titlePaddingRight : 0,
+                    titlePaddingBottom : 5,
+                    titlePaddingLeft : 16,
+                    displayDesc : true,
+                    descFontSize: 14,
+                    descFontColor: '#8e959a',
+                    descFontFamily : 'Microsoft Yahei',
+                    paddingTop : 0,
+                    paddingRight : 0,
+                    paddingBottom : 0,
+                    paddingLeft : 0,
+                    backgroundColor: '#fff',
+                    hoverColor: '#000'
+                      }
+                  })
+                                        </script></div></div>
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/qq_33947955/10518397,BlogCommendFromQuerySearch_29"}'>
+		<a href="https://download.csdn.net/download/qq_33947955/10518397" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						vb获取<em>句柄</em>					</h4>
+					<span class="data float-right">07-04</span>
+				</div>
+				<div class="desc oneline">
+						vb获取鼠标指定位置窗口句柄句柄内容关联 vb获取鼠标指定位置窗口句柄句柄内容关联 vb获取鼠标指定位置窗口句柄句柄内容关联 vb获取鼠标指定位置窗口句柄句柄内容关联				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/weixin_42587403/10512377,BlogCommendFromQuerySearch_30"}'>
+		<a href="https://download.csdn.net/download/weixin_42587403/10512377" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						易语言获取<em>句柄</em>					</h4>
+					<span class="data float-right">07-01</span>
+				</div>
+				<div class="desc oneline">
+						易语言中获取句柄的实例，有需要的可以下载啊				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/askdef/10733225,BlogCommendFromQuerySearch_31"}'>
+		<a href="https://download.csdn.net/download/askdef/10733225" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						各种强大的<em>句柄</em>查看器 绿色版 可以用来看QQ各窗口<em>句柄</em>					</h4>
+					<span class="data float-right">10-20</span>
+				</div>
+				<div class="desc oneline">
+						各种强大的句柄查看器 绿色版 可以用来看QQ各窗口句柄				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/u010233208/8496635,BlogCommendFromQuerySearch_32"}'>
+		<a href="https://download.csdn.net/download/u010233208/8496635" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						C#操作窗口类(<em>句柄</em>操作)					</h4>
+					<span class="data float-right">03-12</span>
+				</div>
+				<div class="desc oneline">
+						C#写个类操作窗口（句柄操作）
+实现过程：
+过程一：找到当前鼠标位置的句柄
+您的使用2个WinAPI（俺喜欢自己封装下来用）：				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/wenzhou1219/9553814,BlogCommendFromQuerySearch_33"}'>
+		<a href="https://download.csdn.net/download/wenzhou1219/9553814" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						C++典型<em>句柄</em>类的实现					</h4>
+					<span class="data float-right">06-19</span>
+				</div>
+				<div class="desc oneline">
+						演示了继承中的易错点，演示了两种常用C++句柄类的封装方式，前者适用于类的基类指针管理以便实现多态，后者不仅管理基类指针还管理子类对象的创建。				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_65" data-pid="65" data-track-view='{"mod":"kp_popu_65-1061","con":",,"}' data-track-click='{"mod":"kp_popu_65-1061","con":",,"}'><iframe  src="https://kunpeng-sc.csdnimg.cn/#/preview/236?positionId=65&queryWord=" frameborder="0" width= "100%"  height= "75px" scrolling="no" ></iframe></div></div>
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/chenqiangdage/article/details/17326147,BlogCommendFromBaidu_34"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/chenqiangdage/article/details/17326147" target="_blank" title="win32 自动更新的一种方案">
+		<h4 class="text-truncate oneline">
+				win32 自动更新的一种方案		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">12-14</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1664</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/chenqiangdage/article/details/17326147" target="_blank" title="win32 自动更新的一种方案">
+				<span class="desc oneline">PS:文章是从本人sina博客搬移过来：win32自动更新的一种方案ps:此只是一个思路，上不了台面的哈；因工作需要，需要做出一个自动更新的方案；主要是作为内部使用，因此需要考虑的因素并不多。YI给出...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/chenqiangdage">来自：	<span class="blog_title"> chenqiangdage的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/u011854789/article/details/52463597,BlogCommendFromBaidu_35"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/u011854789/article/details/52463597" target="_blank" title="使@用@C@++@、W@i@nIN@et实@现@HT@T@P下@@载">
+		<h4 class="text-truncate oneline">
+				使@用@C@++@、W@i@nIN@et实@现@HT@T@P下@@载		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">09-07</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					699</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/u011854789/article/details/52463597" target="_blank" title="使@用@C@++@、W@i@nIN@et实@现@HT@T@P下@@载">
+				<span class="desc oneline">使用WinINet实现HTTP下载步骤如下：1.准备工作。在使用WinINet函数前，要调用InternetAttemptConnect函数来检测网络连接的存在否。使用InternetCheckCon...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/u011854789">来自：	<span class="blog_title"> 不是我的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/mayflowers/article/details/1534010,BlogCommendFromBaidu_36"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/mayflowers/article/details/1534010" target="_blank" title="使用 WinInte API 发送 HTTP 请求">
+		<h4 class="text-truncate oneline">
+				使用 WinInte API 发送 HTTP 请求		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">03-19</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					4123</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/mayflowers/article/details/1534010" target="_blank" title="使用 WinInte API 发送 HTTP 请求">
+				<span class="desc oneline"> BOOLbResult=FALSE; //初始化WinInet环境HINTERNEThInternet=InternetOpen(&quot;CEHTTP&quot;,INTERNET_OPEN_TYPE_DIRECT...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/mayflowers">来自：	<span class="blog_title"> mayflowers的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/gxj1680/article/details/9370327,BlogCommendFromBaidu_37"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/gxj1680/article/details/9370327" target="_blank" title="通过POST向WEB服务器发送数据/上传文件(HttpSendRequestEx、InternetWriteFile)">
+		<h4 class="text-truncate oneline">
+				通过POST向WEB服务器发送数据/上传文件(HttpSendRequestEx、InternetWriteFile)		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">07-18</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					8907</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/gxj1680/article/details/9370327" target="_blank" title="通过POST向WEB服务器发送数据/上传文件(HttpSendRequestEx、InternetWriteFile)">
+				<span class="desc oneline">/************************************************************************//*uploadthread/***********...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/gxj1680">来自：	<span class="blog_title"> gxj1680的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box  recommend-other-item-box"  data-track-click='{"mod":"popu_387","con":",https://bbs.csdn.net/topics/370083611,BlogCommendFromBaidu_38"}'>
+	<a href="https://bbs.csdn.net/topics/370083611" target="_blank">
+		<h4 class="text-truncate oneline">
+				http post文件,HttpSendRequestEx报错error_http_header_not_found?		</h4>
+		<div class="info-box d-flex align-content-center">
+				<span class="date">07-22</span>
+		</div>
+		<p class="content oneline">
+			<span class="desc oneline">最近在做一个用wininet函数http post文件的小软件，遇到了问题，困扰了很久。 主要代码如下： wchar_t szHeader = _T( &quot;Content-Type:applicatio</span>
+							<span class="type-show type-show-bbs">论坛</span>
+					</p>
+	</a>
+
+</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_66" data-pid="66" data-track-view='{"mod":"kp_popu_66-881","con":",,"}' data-track-click='{"mod":"kp_popu_66-881","con":",,"}'><script src="https://nbrecsys.4paradigm.com/resource/cus/csdn/sdk-csdn-render.js"></script>
+<div
+  id="_4paradigm_T38_render"
+  class="_paradigm_T_ads_render _4paradigm_box recommend-item-box clearfix"
+></div>
+<script>
+  //  渲染T38  传入 渲染位置的id和渲染位置的标记
+  p4CSDNRender_T("_4paradigm_T38_render", "T38");
+</script></div></div>
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/sdhongjun/9569205,BlogCommendFromQuerySearch_39"}'>
+		<a href="https://download.csdn.net/download/sdhongjun/9569205" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						GDI、内存、<em>句柄</em>泄露检测工具					</h4>
+					<span class="data float-right">07-06</span>
+				</div>
+				<div class="desc oneline">
+						http://www.codeproject.com/Articles/150463/LeakMon-Track-Handle-leak-GDI-Leak-and-Memory-Leak
+LeakMon is a light weight...				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/wawd74520/8255777,BlogCommendFromQuerySearch_40"}'>
+		<a href="https://download.csdn.net/download/wawd74520/8255777" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						c#无<em>句柄</em>UI 思路					</h4>
+					<span class="data float-right">12-13</span>
+				</div>
+				<div class="desc oneline">
+						关于c#无句柄UI 思路。 - - 不知道可不可行。				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/czwwzc0184211/4262179,BlogCommendFromQuerySearch_41"}'>
+		<a href="https://download.csdn.net/download/czwwzc0184211/4262179" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						C#截图软件,可根据窗口截图,<em>句柄</em>截图					</h4>
+					<span class="data float-right">04-27</span>
+				</div>
+				<div class="desc oneline">
+						C#截图软件,可根据窗口截图,句柄截图
+可截图按钮，文本框，等等...				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/smtorai/10537824,BlogCommendFromQuerySearch_42"}'>
+		<a href="https://download.csdn.net/download/smtorai/10537824" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						读任意软件窗口控件<em>句柄</em>					</h4>
+					<span class="data float-right">07-12</span>
+				</div>
+				<div class="desc oneline">
+						本源码可以读取任意软件窗口控件句柄，通过控件的句柄可以更改其他软件控件名称。				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/qq_30387717/10304204,BlogCommendFromQuerySearch_43"}'>
+		<a href="https://download.csdn.net/download/qq_30387717/10304204" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						系统钩子,用于获取系统<em>句柄</em>					</h4>
+					<span class="data float-right">03-23</span>
+				</div>
+				<div class="desc oneline">
+						系统钩子, 系统钩子, 系统钩子, 系统钩子, 系统钩子, 系统钩子,				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_67" data-pid="67" data-track-view='{"mod":"kp_popu_67-882","con":",,"}' data-track-click='{"mod":"kp_popu_67-882","con":",,"}'><script src="https://nbrecsys.4paradigm.com/resource/cus/csdn/sdk-csdn-render.js"></script>
+<div
+  id="_4paradigm_T43_render"
+  class="_paradigm_T_ads_render _4paradigm_box recommend-item-box clearfix"
+></div>
+<script>
+  //  渲染T43  传入 渲染位置的id和渲染位置的标记
+  p4CSDNRender_T("_4paradigm_T43_render", "T43");
+</script></div></div>
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/jiangqin115/article/details/39268147,BlogCommendFromBaidu_44"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/jiangqin115/article/details/39268147" target="_blank" title="使用 SendRequestEx() 上报数据">
+		<h4 class="text-truncate oneline">
+				使用 SendRequestEx() 上报数据		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">09-14</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1486</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/jiangqin115/article/details/39268147" target="_blank" title="使用 SendRequestEx() 上报数据">
+				<span class="desc oneline">//上报数据//http://bbs.csdn.net/topics/320259464//http://bbs.csdn.net/topics/100121753BOOLReportData_V1(...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/jiangqin115">来自：	<span class="blog_title"> jiangqin115的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box  recommend-other-item-box"  data-track-click='{"mod":"popu_387","con":",https://bbs.csdn.net/topics/340065430,BlogCommendFromBaidu_45"}'>
+	<a href="https://bbs.csdn.net/topics/340065430" target="_blank">
+		<h4 class="text-truncate oneline">
+				12007错误HttpSendRequestEx		</h4>
+		<div class="info-box d-flex align-content-center">
+				<span class="date">05-24</span>
+		</div>
+		<p class="content oneline">
+			<span class="desc oneline">if(!HttpSendRequestEx( hRequest, &amp;BufferIn, NULL, 0, 0)) { printf( &quot;Error on HttpSendRequestEx %d\n</span>
+							<span class="type-show type-show-bbs">论坛</span>
+					</p>
+	</a>
+
+</div>
+
+	
+	
+<div class="recommend-item-box  recommend-other-item-box"  data-track-click='{"mod":"popu_387","con":",https://bbs.csdn.net/topics/110178269,BlogCommendFromBaidu_46"}'>
+	<a href="https://bbs.csdn.net/topics/110178269" target="_blank">
+		<h4 class="text-truncate oneline">
+				HttpSendRequestEx的使用问题！		</h4>
+		<div class="info-box d-flex align-content-center">
+				<span class="date">07-06</span>
+		</div>
+		<p class="content oneline">
+			<span class="desc oneline">我使用HttpSendRequestEx可以上传了文件！ 但有几个问题，还不太明白，请指教！ 1.InternetConnect连接没有使用用户名和密码，我的申请ASP空间可否由自己配置登陆密码呢？</span>
+							<span class="type-show type-show-bbs">论坛</span>
+					</p>
+	</a>
+
+</div>
+
+	
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/yuhenhao/8339747,BlogCommendFromBaidu_47"}'>
+		<a href="https://download.csdn.net/download/yuhenhao/8339747" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						使用大的 POST 请求 HttpSendRequestEx					</h4>
+					<span class="data float-right">01-08</span>
+				</div>
+				<div class="desc oneline">
+						此示例演示在 Internet Explorer 4.0 WinInet.dll 中引入并记录在 Internet 客户端 SDK 中的 HttpSendRequestEx 函数的正确用法。 原始的				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	
+	
+<div class="recommend-item-box  recommend-other-item-box"  data-track-click='{"mod":"popu_387","con":",https://bbs.csdn.net/topics/390072992,BlogCommendFromBaidu_48"}'>
+	<a href="https://bbs.csdn.net/topics/390072992" target="_blank">
+		<h4 class="text-truncate oneline">
+				WinInet 用HttpSendRequestEx、InternetWriteFile函数在HTTP代理POST数据，为什么会阻塞？		</h4>
+		<div class="info-box d-flex align-content-center">
+				<span class="date">05-29</span>
+		</div>
+		<p class="content oneline">
+			<span class="desc oneline">我的问题是这样的： 我的程序在没有代理的情况下功能正常，但在使用HTTP代理的情况下，服务端用InternetWriteFile发送数据，并且InternetWriteFile返回TRUE,但是客户端</span>
+							<span class="type-show type-show-bbs">论坛</span>
+					</p>
+	</a>
+
+</div>
+
+	<div class="recommend-item-box recommend-ad-box"><div id="kp_box_68" data-pid="68" data-track-view='{"mod":"kp_popu_68-883","con":",,"}' data-track-click='{"mod":"kp_popu_68-883","con":",,"}'><!-- T48 位置 -->
+<script src="https://nbrecsys.4paradigm.com/resource/cus/csdn/sdk-csdn-render.js"></script>
+<div
+  id="_4paradigm_T48_render"
+  class="_paradigm_T_ads_render _4paradigm_box recommend-item-box clearfix"
+></div>
+<script>
+  //  渲染T48  传入 渲染位置的id和渲染位置的标记
+  p4CSDNRender_T("_4paradigm_T48_render", "T48");
+</script></div></div>
+	
+	<div class="recommend-item-box  recommend-download-box clearfix"  data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/x9fire/2988688,BlogCommendFromQuerySearch_49"}'>
+		<a href="https://download.csdn.net/download/x9fire/2988688" target="_blank">
+			<div class="content clearfix">
+				<div class="">
+					<h4 class="text-truncate oneline clearfix">
+						易语言-API取鼠标指针<em>句柄</em>					</h4>
+					<span class="data float-right">01-17</span>
+				</div>
+				<div class="desc oneline">
+						由易语言编写，取出当前鼠标指针的句柄，句柄可得鼠标图标，作用无限扩展，自由想象吧				</div>
+				<span class="type-show type-show-download">下载</span>
+			</div>
+		</a>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/winer888/article/details/51084756,BlogCommendHotData_0"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/winer888/article/details/51084756" target="_blank" title="iOS解决键盘弹出遮挡输入框问题">
+		<h4 class="text-truncate oneline">
+				iOS解决键盘弹出遮挡输入框问题		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">04-07</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/winer888/article/details/51084756" target="_blank" title="iOS解决键盘弹出遮挡输入框问题">
+				<span class="desc oneline">1、错误：
+
+
+ 
+               键盘遮挡输入框最常见的可能就是在登录界面了，无论有多少个textFiled，不论是在VC的任何位置。都有可能造成键盘弹出来时，把输入框挡住了。...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/winer888">来自：	<span class="blog_title"> AppleWiner的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/tianwei7518/article/details/19154891,BlogCommendHotData_1"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/tianwei7518/article/details/19154891" target="_blank" title="改造CAS单点登录 ---  自定义登陆页面（客户端）">
+		<h4 class="text-truncate oneline">
+				改造CAS单点登录 ---  自定义登陆页面（客户端）		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">02-13</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/tianwei7518/article/details/19154891" target="_blank" title="改造CAS单点登录 ---  自定义登陆页面（客户端）">
+				<span class="desc oneline">修改版本cas-client-3.2.1和cas-server-3.5.2，功能使用maven构建
+ 
+ 
+通过自定义认证过滤器，添加登录页面路径处理。废话不多说了，直接上代码。
+一、修改cas-cl...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/tianwei7518">来自：	<span class="blog_title"> 任何技能都是从模仿开始，逐步升华。</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/Main_Stage/article/details/41989499,BlogCommendHotData_2"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/Main_Stage/article/details/41989499" target="_blank" title="Android圆形图片--自定义控件">
+		<h4 class="text-truncate oneline">
+				Android圆形图片--自定义控件		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">12-17</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/Main_Stage/article/details/41989499" target="_blank" title="Android圆形图片--自定义控件">
+				<span class="desc oneline">Android圆形图片--自定义控件</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/Main_Stage">来自：	<span class="blog_title"> Main_Stage的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/liyaohhh/article/details/50363184,BlogCommendHotData_3"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/liyaohhh/article/details/50363184" target="_blank" title="神经网络入门（二）卷积网络在图像识别的应用">
+		<h4 class="text-truncate oneline">
+				神经网络入门（二）卷积网络在图像识别的应用		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">12-20</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/liyaohhh/article/details/50363184" target="_blank" title="神经网络入门（二）卷积网络在图像识别的应用">
+				<span class="desc oneline">卷积的概念
+      线性滤波可以说是图像处理最基本的方法，它可以允许我们对图像进行处理，产生很多不同的效果。做法很简单。首先，我们有一个二维的滤波器矩阵和一个要处理的二维图像。然后，对于图像的每一...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/liyaohhh">来自：	<span class="blog_title"> HAHA的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/maoyuanming0806/article/details/78067446,BlogCommendHotData_4"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/maoyuanming0806/article/details/78067446" target="_blank" title="搭建图片服务器《二》-linux安装nginx">
+		<h4 class="text-truncate oneline">
+				搭建图片服务器《二》-linux安装nginx		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">09-22</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					8万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/maoyuanming0806/article/details/78067446" target="_blank" title="搭建图片服务器《二》-linux安装nginx">
+				<span class="desc oneline">nginx是个好东西，Nginx (engine x) 是一个高性能的HTTP和反向代理服务器，也是一个IMAP/POP3/SMTP服务器。Nginx是由伊戈尔·赛索耶夫为俄罗斯访问量第二的Rambl...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/maoyuanming0806">来自：	<span class="blog_title"> maoyuanming0806的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/zhugehengheng/article/details/44645287,BlogCommendHotData_5"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/zhugehengheng/article/details/44645287" target="_blank" title="PHP+MySQL实现用户登录注册API接口">
+		<h4 class="text-truncate oneline">
+				PHP+MySQL实现用户登录注册API接口		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">03-26</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					9428</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/zhugehengheng/article/details/44645287" target="_blank" title="PHP+MySQL实现用户登录注册API接口">
+				<span class="desc oneline">最近在学习PHP后台相关知识，利用PHP连接MySQL数据库实现了一个简单的用户登录注册及修改密码的API接口，接口为标准的json输出，本地验证通过。功能比较简单，不过也自己摸索了挺长时间，期间各种...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/zhugehengheng">来自：	<span class="blog_title"> zhugehengheng</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/zssureqh/article/details/42119303,BlogCommendHotData_6"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/zssureqh/article/details/42119303" target="_blank" title="DICOM医学图像处理：DICOM存储操作之“多幅BMP图像数据存入DCM文件”">
+		<h4 class="text-truncate oneline">
+				DICOM医学图像处理：DICOM存储操作之“多幅BMP图像数据存入DCM文件”		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">12-24</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					2万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/zssureqh/article/details/42119303" target="_blank" title="DICOM医学图像处理：DICOM存储操作之“多幅BMP图像数据存入DCM文件”">
+				<span class="desc oneline">背景：  本专栏“DICOM医学图像处理”受众较窄，起初只想作为自己学习积累和工作经验的简单整理。前几天无聊浏览了一下，发现阅读量两极化严重，主要集中在“关于BMP（JPG）与DCM格式转换”和“DI...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/zssureqh">来自：	<span class="blog_title"> 只要踏出一步，路就在前方——zssure</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/itpinpai/article/details/50412260,BlogCommendHotData_7"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/itpinpai/article/details/50412260" target="_blank" title="Canvas中的非零环绕规则原理">
+		<h4 class="text-truncate oneline">
+				Canvas中的非零环绕规则原理		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">12-27</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					5493</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/itpinpai/article/details/50412260" target="_blank" title="Canvas中的非零环绕规则原理">
+				<span class="desc oneline">非零环绕规则：对于路径中指定范围区域，从该区域内部画一条足够长的线段，使此线段的完全落在路径范围之外。非零环绕规则计数器：然后，将计数器初始化为0，每当这个线段与路径上的直线或曲线相交时，就改变计数器...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/itpinpai">来自：	<span class="blog_title"> 姜丝的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/jnulzl/article/details/49894041,BlogCommendHotData_8"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/jnulzl/article/details/49894041" target="_blank" title="史上最好的LDA(线性判别分析)教程">
+		<h4 class="text-truncate oneline">
+				史上最好的LDA(线性判别分析)教程		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">11-17</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					5万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/jnulzl/article/details/49894041" target="_blank" title="史上最好的LDA(线性判别分析)教程">
+				<span class="desc oneline">一、前言最近由于研究需要，要用到线性判别分析(LDA)。于是找了很多资料来看，结果发现大部分讲的都是理论知识，因此最后还是看的一知半解，后来终于找到了个英文的文档，作者由PCA引入LDA，看过后豁然开...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/jnulzl">来自：	<span class="blog_title"> jnulzl的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/dongdong0071/article/details/52268494,BlogCommendHotData_9"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/dongdong0071/article/details/52268494" target="_blank" title="SS14封装">
+		<h4 class="text-truncate oneline">
+				SS14封装		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">08-21</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					2090</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/dongdong0071/article/details/52268494" target="_blank" title="SS14封装">
+				<span class="desc oneline">http://blog.csdn.net/penglijiang/article/details/16279269</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/dongdong0071">来自：	<span class="blog_title"> 似水流年的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/VBcom/article/details/7245186,BlogCommendHotData_10"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/VBcom/article/details/7245186" target="_blank" title="DirectX修复工具增强版">
+		<h4 class="text-truncate oneline">
+				DirectX修复工具增强版		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">02-09</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					206万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/VBcom/article/details/7245186" target="_blank" title="DirectX修复工具增强版">
+				<span class="desc oneline">最后更新：2019-5-26
+
+DirectX修复工具最新版：DirectX Repair V3.8 增强版NEW!
+
+版本号：V3.8.0.11638
+
+大小: 107MB/7z格式压缩，189MB...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/VBcom">来自：	<span class="blog_title"> VBcom的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/shallcheek/article/details/46998643,BlogCommendHotData_11"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/shallcheek/article/details/46998643" target="_blank" title="Android 合并生成分享图片（View截图）">
+		<h4 class="text-truncate oneline">
+				Android 合并生成分享图片（View截图）		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">07-22</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					3万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/shallcheek/article/details/46998643" target="_blank" title="Android 合并生成分享图片（View截图）">
+				<span class="desc oneline">用以前以前写过的自定义课表软件 ,Android 自定义View课程表表格 
+原生View截图合成分享的图片 
+ 
+ 
+  
+   
+  
+  
+  
+  
+ 看到的是图片只显示到11节处，下面的没有...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/shallcheek">来自：	<span class="blog_title"> ShallCheek</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/Silver_sail/article/details/38224507,BlogCommendHotData_12"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/Silver_sail/article/details/38224507" target="_blank" title="c++ 获取显示器的连接端口类型（VGA，HDMI，DVI等等）">
+		<h4 class="text-truncate oneline">
+				c++ 获取显示器的连接端口类型（VGA，HDMI，DVI等等）		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">07-28</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					3494</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/Silver_sail/article/details/38224507" target="_blank" title="c++ 获取显示器的连接端口类型（VGA，HDMI，DVI等等）">
+				<span class="desc oneline">由于研究需要，</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/Silver_sail">来自：	<span class="blog_title"> Silver_sail的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/u011285477/article/details/50974230,BlogCommendHotData_13"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/u011285477/article/details/50974230" target="_blank" title="HOG特征（Histogram of Gradient）学习总结">
+		<h4 class="text-truncate oneline">
+				HOG特征（Histogram of Gradient）学习总结		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">03-25</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					2万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/u011285477/article/details/50974230" target="_blank" title="HOG特征（Histogram of Gradient）学习总结">
+				<span class="desc oneline">最近在做的项目有用到HOG+SVM这一方面的知识，在此对HOG特征进行下总结。
+
+参考资料： 
+HOG的经典论文：Dalal N, Triggs B. Histograms of oriented g...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/u011285477">来自：	<span class="blog_title"> 图像研究猿的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/qq574857122/article/details/16361033,BlogCommendHotData_14"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/qq574857122/article/details/16361033" target="_blank" title="强连通分量及缩点tarjan算法解析">
+		<h4 class="text-truncate oneline">
+				强连通分量及缩点tarjan算法解析		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">11-16</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					66万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/qq574857122/article/details/16361033" target="_blank" title="强连通分量及缩点tarjan算法解析">
+				<span class="desc oneline">强连通分量：
+简言之 就是找环（每条边只走一次，两两可达）
+孤立的一个点也是一个连通分量 
+ 
+使用tarjan算法 在嵌套的多个环中优先得到最大环( 最小环就是每个孤立点）
+ 
+定义：
+int Ti...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/qq574857122">来自：	<span class="blog_title"> 九野的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/wuchengzeng/article/details/50037611,BlogCommendHotData_15"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/wuchengzeng/article/details/50037611" target="_blank" title="jquery/js实现一个网页同时调用多个倒计时(最新的)">
+		<h4 class="text-truncate oneline">
+				jquery/js实现一个网页同时调用多个倒计时(最新的)		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">11-25</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					54万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/wuchengzeng/article/details/50037611" target="_blank" title="jquery/js实现一个网页同时调用多个倒计时(最新的)">
+				<span class="desc oneline">jquery/js实现一个网页同时调用多个倒计时(最新的)
+
+最近需要网页添加多个倒计时. 查阅网络,基本上都是千遍一律的不好用. 自己按需写了个.希望对大家有用. 有用请赞一个哦!
+
+
+
+//js
+...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/wuchengzeng">来自：	<span class="blog_title"> Websites</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/gefangshuai/article/details/50328451,BlogCommendHotData_16"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/gefangshuai/article/details/50328451" target="_blank" title="关于SpringBoot bean无法注入的问题（与文件包位置有关）">
+		<h4 class="text-truncate oneline">
+				关于SpringBoot bean无法注入的问题（与文件包位置有关）		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">12-16</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					26万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/gefangshuai/article/details/50328451" target="_blank" title="关于SpringBoot bean无法注入的问题（与文件包位置有关）">
+				<span class="desc oneline">问题场景描述整个项目通过Maven构建，大致结构如下：
+核心Spring框架一个module spring-boot-base
+service和dao一个module server-core
+提供系统...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/gefangshuai">来自：	<span class="blog_title"> 开发随笔</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/Ape55/article/details/73530419,BlogCommendHotData_17"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/Ape55/article/details/73530419" target="_blank" title="plsql的命令（command）窗口与sql窗口有什么区别20170620">
+		<h4 class="text-truncate oneline">
+				plsql的命令（command）窗口与sql窗口有什么区别20170620		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-21</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					5万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/Ape55/article/details/73530419" target="_blank" title="plsql的命令（command）窗口与sql窗口有什么区别20170620">
+				<span class="desc oneline">command窗口是命令窗口，即为sqplus窗口，有命令提示符，识别sqlplus命令，基本的命令都可以执行
+sql仅可执行DDL、select、DML等...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/Ape55">来自：	<span class="blog_title"> Ape55的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/problc/article/details/5579475,BlogCommendHotData_18"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/problc/article/details/5579475" target="_blank" title="寻找连通线,参考八后算法递归,可用于验证码去除连续干扰线">
+		<h4 class="text-truncate oneline">
+				寻找连通线,参考八后算法递归,可用于验证码去除连续干扰线		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">05-11</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					2万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/problc/article/details/5579475" target="_blank" title="寻找连通线,参考八后算法递归,可用于验证码去除连续干扰线">
+				<span class="desc oneline">#include using namespace std;#define M 5#define N 4int a[M][N] = {0,1,0,1,0,1,1,0,1,1,0,0,1,0,1,0,1,...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/problc">来自：	<span class="blog_title"> miracle的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/hero_fantao/article/details/34533533,BlogCommendHotData_19"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/hero_fantao/article/details/34533533" target="_blank" title="连续特征离散化和归一化">
+		<h4 class="text-truncate oneline">
+				连续特征离散化和归一化		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-25</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					6万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/hero_fantao/article/details/34533533" target="_blank" title="连续特征离散化和归一化">
+				<span class="desc oneline">连续特征进行离散化处理。</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/hero_fantao">来自：	<span class="blog_title"> hero_fantao的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/tangyanzhi1111/article/details/73691707,BlogCommendHotData_20"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/tangyanzhi1111/article/details/73691707" target="_blank" title="Asp.Net MVC5 视图页面编译调用流转过程，以及页面Web展示">
+		<h4 class="text-truncate oneline">
+				Asp.Net MVC5 视图页面编译调用流转过程，以及页面Web展示		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-24</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					5513</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/tangyanzhi1111/article/details/73691707" target="_blank" title="Asp.Net MVC5 视图页面编译调用流转过程，以及页面Web展示">
+				<span class="desc oneline">当控制器调用Action，返回View的时候。
+         例如：
+ 
+    public class HomeController : Controller
+    {
+        pu...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/tangyanzhi1111">来自：	<span class="blog_title"> tangyanzhi1111的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/zml_2015/article/details/46662809,BlogCommendHotData_21"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/zml_2015/article/details/46662809" target="_blank" title="Linux虚拟机与外面系统ping不通，或者连不上网">
+		<h4 class="text-truncate oneline">
+				Linux虚拟机与外面系统ping不通，或者连不上网		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-27</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/zml_2015/article/details/46662809" target="_blank" title="Linux虚拟机与外面系统ping不通，或者连不上网">
+				<span class="desc oneline">很多人在做linux课程设计的时候，用的linux虚拟机与外面的系统ping不通，或者虚拟机里面上不了网，这个主要是与系统的默认设置有关，下面让我帮你们解决这个问题吧
+1.首先打开虚拟机的    “编...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/zml_2015">来自：	<span class="blog_title"> 云淡风轻的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/xu__cg/article/details/52970885,BlogCommendHotData_22"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/xu__cg/article/details/52970885" target="_blank" title="Java设计模式学习06——静态代理与动态代理">
+		<h4 class="text-truncate oneline">
+				Java设计模式学习06——静态代理与动态代理		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">10-30</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					2万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/xu__cg/article/details/52970885" target="_blank" title="Java设计模式学习06——静态代理与动态代理">
+				<span class="desc oneline">一、代理模式为某个对象提供一个代理，从而控制这个代理的访问。代理类和委托类具有共同的父类或父接口，这样在任何使用委托类对象的地方都可以使用代理类对象替代。代理类负责请求的预处理、过滤、将请求分配给委托...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/xu__cg">来自：	<span class="blog_title"> 小小本科生成长之路</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/hzc543806053/article/details/7677958,BlogCommendHotData_23"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/hzc543806053/article/details/7677958" target="_blank" title="Android  面试题汇总">
+		<h4 class="text-truncate oneline">
+				Android  面试题汇总		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-19</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					3305</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/hzc543806053/article/details/7677958" target="_blank" title="Android  面试题汇总">
+				<span class="desc oneline">Android 70道面试题汇总不再愁面试
+ 
+　　本文为开发者奉献了70道经典Android面试题加答案--重要知识点几乎都涉及到了，你还等啥，赶紧收藏吧!!
+ 
+　　1.下列哪些语句关于内...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/hzc543806053">来自：	<span class="blog_title"> Super的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/zd0303/article/details/7058457,BlogCommendHotData_24"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/zd0303/article/details/7058457" target="_blank" title="MATLAB中注释一段程序">
+		<h4 class="text-truncate oneline">
+				MATLAB中注释一段程序		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">12-09</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					4万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/zd0303/article/details/7058457" target="_blank" title="MATLAB中注释一段程序">
+				<span class="desc oneline">在MATLAB中，可以注释一段程序。
+使用“%{”和“%}”。
+例如
+%{
+。。。
+%}
+即可。
+经典方法是用 if 0，但缺点是不够直观，注释掉的内容仍然保持代码的颜色。现在可以用
+...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/zd0303">来自：	<span class="blog_title"> 知识小屋</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix"  data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/yimixgg/article/details/79442175,BlogCommendHotData_25"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/yimixgg/article/details/79442175" target="_blank" title="linux  启动 pycharm程序的命令（pycharm已安装好）">
+		<h4 class="text-truncate oneline">
+				linux  启动 pycharm程序的命令（pycharm已安装好）		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">03-05</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/yimixgg/article/details/79442175" target="_blank" title="linux  启动 pycharm程序的命令（pycharm已安装好）">
+				<span class="desc oneline">方法一：步骤：进入pycharm 安装路径下的bin目录下，输入如下命令：./pycharm.sh方法二：设置桌面快捷方式：参考博客：http://blog.csdn.net/tmosk/articl...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/yimixgg">来自：	<span class="blog_title"> yimixgg的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+                <div class="recommend-item-box type_hot_word">
+                                <div class="content clearfix">
+                    <div class="word float-left">
+                                                            <span>
+                        <a href="https://edu.csdn.net/courses/o5329_s5330_k " target="_blank">
+                        机器学习教程                    </a></span>
+                                                                                <span>
+                        <a href="https://edu.csdn.net/courses/o280_s351_k " target="_blank">
+                        Objective-C培训                    </a></span>
+                                                                                <span>
+                        <a href="https://edu.csdn.net/combos/o7115_s388_l0_t " target="_blank">
+                        交互设计视频教程                    </a></span>
+                                                                                <span>
+                        <a href="https://edu.csdn.net/course/play/5599/104252 " target="_blank">
+                        颜色模型                    </a></span>
+                                                                                <span>
+                        <a href="https://edu.csdn.net/combos/o363_l0_t " target="_blank">
+                        设计制作学习                    </a></span>
+                                                            </div>
+                </div>
+                                                </div>
+                            <div class="recommend-loading-box">
+                <img src='https://csdnimg.cn/release/phoenix/images/feedLoading.gif'>
+            </div>
+            <div class="recommend-end-box">
+                <p class="text-center">没有更多推荐了，<a href="https://blog.csdn.net/" class="c-blue c-blue-hover c-blue-focus">返回首页</a></p>
+            </div>
+        </div>
+    </main>
+
+    <aside>
+	<div id="asideProfile" class="aside-box">
+    <!-- <h3 class="aside-title">个人资料</h3> -->
+    <div class="profile-intro d-flex">
+        <div class="avatar-box d-flex justify-content-center flex-column">
+            <a href="https://blog.csdn.net/zhangjunjian127">
+              <img src="https://avatar.csdn.net/C/B/B/3_zhangjunjian127.jpg" class="avatar_pic">
+                              <img src="https://g.csdnimg.cn/static/user-reg-year/1x/9.png" class="user-years">
+                          </a>
+            
+        </div>
+        <div class="user-info d-flex justify-content-center flex-column">
+            <p class="name csdn-tracking-statistics tracking-click" data-mod="popu_379">
+                <a href="https://blog.csdn.net/zhangjunjian127" target="_blank" class="" id="uid">荔-枝-lin</a>
+            </p>
+                    </div>
+                <div class="opt-box d-flex justify-content-center flex-column">
+            <span  class="csdn-tracking-statistics tracking-click" data-mod="popu_379">
+                <a class="btn btn-sm btn-red-hollow attention" id="btnAttent">关注</a>
+            </span>
+        </div>
+            </div>
+    <div class="data-info d-flex item-tiling">
+                <dl class="text-center" title="10">
+                        <dt><a href="https://blog.csdn.net/zhangjunjian127?t=1">原创</a></dt>
+            <dd><a href="https://blog.csdn.net/zhangjunjian127?t=1"><span class="count">10</span></a></dd>
+                    </dl>
+        <dl class="text-center" id="fanBox" title="84">
+            <dt>粉丝</dt>
+            <dd><span class="count" id="fan">84</span></dd>
+        </dl>
+        <dl class="text-center" title="13">
+            <dt>喜欢</dt>
+            <dd><span class="count">13</span></dd>
+        </dl>
+        <dl class="text-center" title="19">
+            <dt>评论</dt>
+            <dd><span class="count">19</span></dd>
+        </dl>
+    </div>
+    <div class="grade-box clearfix">
+        <dl>
+            <dt>等级：</dt>
+            <dd>
+                <a href="https://blog.csdn.net/home/help.html#level" title="5级,点击查看等级说明" target="_blank">
+                    <svg class="icon icon-level" aria-hidden="true">
+                        <use xlink:href="#csdnc-bloglevel-5"></use>
+                    </svg>
+                </a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>访问：</dt>
+            <dd title="295432">
+                29万+            </dd>
+        </dl>
+        <dl>
+            <dt>积分：</dt>
+            <dd title="2317">
+                2317            </dd>
+        </dl>
+        <dl title="27607">
+            <dt>排名：</dt>
+            <dd>2万+</dd>
+        </dl>
+    </div>
+    </div>
+<div class="csdn-tracking-statistics mb8 box-shadow" data-pid="blog" data-mod="popu_4" style="height:250px;">
+    <div class="aside-content text-center" id="cpro_u2734133">
+      <div id="kp_box_56" data-pid="56" data-track-view='{"mod":"kp_popu_56-703","con":",,"}' data-track-click='{"mod":"kp_popu_56-703","con":",,"}'><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 博客内页左上视窗-20181120 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-1076724771190722"
+     data-ad-slot="7700527946"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>    </div>
+</div>
+<div id="asideNewArticle" class="aside-box">
+    <h3 class="aside-title">最新文章</h3>
+    <div class="aside-content">
+        <ul class="inf_list clearfix csdn-tracking-statistics tracking-click" data-mod="popu_382">
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/zhangjunjian127/article/details/88294187" target="_blank">谈谈你对runtime的理解</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/zhangjunjian127/article/details/88290907" target="_blank">谈谈你对block的理解</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/zhangjunjian127/article/details/88175875" target="_blank">Cycript的简单使用</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/zhangjunjian127/article/details/88174787" target="_blank">shell脚本知识点</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/zhangjunjian127/article/details/88109412" target="_blank">iTerm2快捷键笔记</a>
+            </li>
+                    </ul>
+    </div>
+</div>
+<div id="asideCategory" class="aside-box flexible-box">
+    <h3 class="aside-title">个人分类</h3>
+    <div class="aside-content">
+        <ul>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/zhangjunjian127/article/category/947569">
+                    <span class="title oneline">C/C++</span>
+                    <span class="count float-right">47篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/zhangjunjian127/article/category/951221">
+                    <span class="title oneline">WP7</span>
+                    <span class="count float-right">15篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/zhangjunjian127/article/category/1082642">
+                    <span class="title oneline">C#</span>
+                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/zhangjunjian127/article/category/1083037">
+                    <span class="title oneline">Windows 7</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/zhangjunjian127/article/category/1098643">
+                    <span class="title oneline">网络传输</span>
+                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/zhangjunjian127/article/category/1128230">
+                    <span class="title oneline">Windows CE</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/zhangjunjian127/article/category/1218162">
+                    <span class="title oneline">MYSQL</span>
+                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/zhangjunjian127/article/category/1306517">
+                    <span class="title oneline">WindowsNT</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/zhangjunjian127/article/category/1331835">
+                    <span class="title oneline">daily build</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/zhangjunjian127/article/category/1833485">
+                    <span class="title oneline">iOS</span>
+                    <span class="count float-right">39篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/zhangjunjian127/article/category/1870973">
+                    <span class="title oneline">iphone数据存储</span>
+                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/zhangjunjian127/article/category/2530403">
+                    <span class="title oneline">HTTP</span>
+                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/zhangjunjian127/article/category/5727767">
+                    <span class="title oneline">多线程</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                    </ul>
+    </div>
+        <p class="text-center">
+        <a class="btn btn-link-blue flexible-btn" data-fbox="aside-archive">展开</a>
+    </p>
+    </div>
+<div id="asideArchive" class="aside-box flexible-box">
+    <h3 class="aside-title">归档</h3>
+    <div class="aside-content">
+        <ul class="archive-list">
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2019/03">
+                    2019年3月                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2017/02">
+                    2017年2月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2016/11">
+                    2016年11月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2016/09">
+                    2016年9月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2016/07">
+                    2016年7月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2016/06">
+                    2016年6月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2016/05">
+                    2016年5月                    <span class="count float-right">7篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2016/04">
+                    2016年4月                    <span class="count float-right">6篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2016/03">
+                    2016年3月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2016/01">
+                    2016年1月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2015/10">
+                    2015年10月                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2015/08">
+                    2015年8月                    <span class="count float-right">4篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2015/07">
+                    2015年7月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2015/06">
+                    2015年6月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2015/04">
+                    2015年4月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2015/03">
+                    2015年3月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2015/02">
+                    2015年2月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2014/09">
+                    2014年9月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2014/08">
+                    2014年8月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2014/01">
+                    2014年1月                    <span class="count float-right">6篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2013/12">
+                    2013年12月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2013/03">
+                    2013年3月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2013/01">
+                    2013年1月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2012/12">
+                    2012年12月                    <span class="count float-right">4篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2012/11">
+                    2012年11月                    <span class="count float-right">4篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2012/10">
+                    2012年10月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2012/09">
+                    2012年9月                    <span class="count float-right">12篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2012/08">
+                    2012年8月                    <span class="count float-right">27篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2012/04">
+                    2012年4月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2012/03">
+                    2012年3月                    <span class="count float-right">4篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2012/02">
+                    2012年2月                    <span class="count float-right">12篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/zhangjunjian127/article/month/2011/12">
+                    2011年12月                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                    </ul>
+    </div>
+        <p class="text-center">
+        <a class="btn btn-link-blue flexible-btn" data-fbox="aside-archive">展开</a>
+    </p>
+    </div>
+<div id="asideHotArticle" class="aside-box">
+	<h3 class="aside-title">热门文章</h3>
+	<div class="aside-content">
+		<ul class="hotArticle-list csdn-tracking-statistics tracking-click" data-mod="popu_521">
+							<li>
+					<a href="https://blog.csdn.net/zhangjunjian127/article/details/18262603">NSString字符串截取三种方法</a>
+					<p class="read">阅读数 <span>119435</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/zhangjunjian127/article/details/47954981">CocoaPods安装和使用及问题：Setting up CocoaPods master repo</a>
+					<p class="read">阅读数 <span>19063</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/zhangjunjian127/article/details/7327468">为Button 添加图片---WPF</a>
+					<p class="read">阅读数 <span>16520</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/zhangjunjian127/article/details/7891764">MySql 中导入txt文本文件数据1</a>
+					<p class="read">阅读数 <span>9789</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/zhangjunjian127/article/details/7067797">SocketAsyncEventArgs</a>
+					<p class="read">阅读数 <span>9110</span></p>
+				</li>
+					</ul>
+	</div>
+</div>
+<div id="asideNewComments" class="aside-box">
+    <h3 class="aside-title">最新评论</h3>
+    <div class="aside-content">
+        <ul class="newcomment-list">
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/zhangjunjian127/article/details/51460264#comments">交互式动画</a>
+                <p class="comment ellipsis">
+                    <a href="https://my.csdn.net/weixin_41804709" class="user-name" target="_blank">weixin_41804709：</a>学习了                </p>
+            </li>
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/zhangjunjian127/article/details/47954981#comments">CocoaPods安装和使用及问题...</a>
+                <p class="comment ellipsis">
+                    <a href="https://my.csdn.net/j823299302" class="user-name" target="_blank">j823299302：</a>我的问题是，只要写上pod，不管pod后面是什么，下面会显示pod文件内容，请问这个怎么解决，不管是国内的还是国外的都没有。                </p>
+            </li>
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/zhangjunjian127/article/details/18262603#comments">NSString字符串截取三种方法</a>
+                <p class="comment ellipsis">
+                    <a href="https://my.csdn.net/celine_zhang" class="user-name" target="_blank">celine_zhang：</a>特意注册了来感谢你QwQ 完美的解决的我的问题啊特别棒！！                </p>
+            </li>
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/zhangjunjian127/article/details/44925335#comments">UIButton 不响应或延迟响应...</a>
+                <p class="comment ellipsis">
+                    <a href="https://my.csdn.net/zuoyeyuqinglan" class="user-name" target="_blank">zuoyeyuqinglan：</a>表示对我的情况来说没什么用                </p>
+            </li>
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/zhangjunjian127/article/details/8307520#comments">openscmanager</a>
+                <p class="comment ellipsis">
+                    <a href="https://my.csdn.net/suyingshipp" class="user-name" target="_blank">suyingshipp：</a>TEnumServiceStatus  是个什么东东，是CHAR吗                </p>
+            </li>
+                    </ul>
+    </div>
+</div>
+	<div id="asideFooter">
+			
+		<div class="aside-box">
+			<div id="kp_box_57" data-pid="57" data-track-view='{"mod":"kp_popu_57-1158","con":",,"}' data-track-click='{"mod":"kp_popu_57-1158","con":",,"}'><!-- 广告位：PC-博客内页左下视窗 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '6272567',
+        container: s,
+        size: '300,250',
+        display: 'inlay-fix'
+    });
+})();
+</script>
+<script src="https://dup.baidustatic.com/js/os.js"></script></div>		</div>
+				<div class="aside-box">
+			<div class="persion_article">
+			</div>
+		</div>
+	</div>
+</aside>
+<script src="https://csdnimg.cn/pubfooter/js/publib_footer-1.0.3.js" data-isfootertrack="false" type="text/javascript"></script>
+<script>
+	$("a.flexible-btn").click(function(){
+		$(this).parents('div.aside-box').removeClass('flexible-box');
+		$(this).remove();
+	})
+</script>
+</div>
+<div class="mask-dark"></div>
+<div class="tool-box">
+	<ul class="meau-list">
+		<li class="btn-like-box ">
+			<button class=" low-height hover-box btn-like " title="点赞">
+				<svg class="icon active hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-thumbsup-ok"></use>
+				</svg>
+				<svg class="icon no-active hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-thumbsup"></use>
+				</svg>
+				<span class="hover-show text-box text">
+					<span class="no-active">点赞</span>
+					<span class="active">取消点赞</span>
+				</span>
+				<p>0</p>
+			</button>
+		</li>
+		<li class="">
+						<a class="btn-comments long-height hover-box" title="写评论" href="#commentBox">
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-comments"></use>
+				</svg>
+				<span class="hover-show text">评论</span>
+				<p class="">
+						2				</p>
+			</a>
+		</li>
+		<li class="toc-container-box" id="liTocBox">
+			<button class="btn-toc low-height hover-box" title="目录">
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-contents"></use>
+				</svg>
+				<span class="hover-show text">目录</span>
+			</button>
+			<div class="toc-container">
+				<div class="pos-box">
+					<div class="icon-arrow"></div>
+					<div class="scroll-box">
+						<div class="toc-box"></div>
+					</div>
+				</div>
+				<div class="opt-box">
+					<button class="btn-opt prev nomore" title="向上">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#csdnc-chevronup"></use>
+						</svg>
+					</button>
+					<button class="btn-opt next">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#csdnc-chevrondown"></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</li>
+		<li>
+			<button class="btn-bookmark low-height hover-box" title="收藏">
+				<svg class="icon active hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-bookmark-ok"></use>
+				</svg>
+				<svg class="icon no-active hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-bookmark"></use>
+				</svg>
+					<span class="hover-show text">收藏</span>
+				<!-- <span class="hover-show text-box text">
+					<span class="no-active">收藏</span>
+					<span class="active">取消收藏</span>
+				</span> -->
+			</button>
+		</li>
+		<li class="bdsharebuttonbox">
+			<div class="weixin-qr btn-comments low-height hover-box" >
+        <a href="#" class="bds_weixin clear-share-style" data-cmd="weixin" title="手机看"></a>
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-usephone"></use>
+				</svg>
+				<span class="hover-show text text3">
+					手机看
+				</span>
+			</div>
+		</li>
+							<li class="widescreen-hide">
+				<a class="btn-comments low-height hover-box" href="https://blog.csdn.net/zhangjunjian127/article/details/7912712" title="CInternetSession.OpenUrl连接限制（转）">
+					<svg class="icon hover-hide" aria-hidden="true">
+						<use xlink:href="#csdnc-chevronleft"></use>
+					</svg>
+					<span class="hover-show text text3">上一篇</span>
+				</a>
+			</li>
+								<li class="widescreen-hide">
+			<a class="btn-comments hover-box low-height" href="https://blog.csdn.net/zhangjunjian127/article/details/7915325" title="InternetOpen\InternetOpenUrl\InternetReadFile 等相关Win32 网络API 使用详细说明">
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-chevronright"></use>
+				</svg>
+				<span class="hover-show text text3">下一篇</span>
+			</a>
+		</li>
+						<!-- 宽屏更多按钮 -->
+		<li class="widescreen-more">
+			<a class="btn-comments chat-ask-button low-height hover-box" title="快问" href="#chatqa">
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-more"></use>
+				</svg>
+				<span class="hover-show text">更多</span>
+				
+			</a>
+			<ul class="widescreen-more-box">
+													<li class="widescreen-more">
+						<a class="btn-comments low-height hover-box" href="https://blog.csdn.net/zhangjunjian127/article/details/7912712" title="CInternetSession.OpenUrl连接限制（转）">
+							<svg class="icon hover-hide" aria-hidden="true">
+								<use xlink:href="#csdnc-chevronleft"></use>
+							</svg>
+							<span class="hover-show text text3">上一篇</span>
+						</a>
+					</li>
+																<li class="widescreen-more">
+					<a class="btn-comments hover-box low-height" href="https://blog.csdn.net/zhangjunjian127/article/details/7915325" title="InternetOpen\InternetOpenUrl\InternetReadFile 等相关Win32 网络API 使用详细说明">
+						<svg class="icon hover-hide" aria-hidden="true">
+							<use xlink:href="#csdnc-chevronright"></use>
+						</svg>
+						<span class="hover-show text text3">下一篇</span>
+					</a>
+				</li>
+							</ul>
+		</li>
+	</ul>
+</div>
+<script>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "1", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'https://csdnimg.cn/static/api/js/share.js?v=89860594'];</script>
+<script>
+    var recommendCount = 76;
+    recommendCount = recommendCount > 1 ? (recommendCount + (recommendCount>6 ? 2 : 1)) : recommendCount;
+    var ChannelId = 16;
+    var articleId = "7913252";
+    var commentscount = 2;
+    var islock = false;
+    var curentUrl = "https://blog.csdn.net/zhangjunjian127/article/details/7913252";
+    var myUrl = "https://my.csdn.net/";
+    //1禁止评论，2正常
+    var commentAuth = 2;
+    //百度搜索
+    var baiduKey = "HINTERNET 句柄 - zhangjunjian127的专栏";
+    var needInsertBaidu = true;
+    // 代码段样式
+    var codeStyle = '';
+	var highlight = ["hinternet","\u53e5\u67c4"];//高亮数组
+
+    var RecommendBlogExpertList = [];
+	var articleType = 2;
+	var CopyrightContent = '';
+</script>
+<script src="https://csdnimg.cn/public/sandalstrap/1.4/js/sandalstrap.min.js"></script>
+<script src="https://csdnimg.cn/release/phoenix/vendor/pagination/paging.js"></script>
+
+<div style="display:none;">
+	<img src="" onerror='setTimeout(function(){if(!/(csdn.net|iteye.com|baiducontent.com|googleusercontent.com|360webcache.com|sogoucdn.com|bingj.com|baidu.com)$/.test(window.location.hostname)){window.location.href="\x68\x74\x74\x70\x73\x3a\x2f\x2f\x77\x77\x77\x2e\x63\x73\x64\x6e\x2e\x6e\x65\x74"}},3000);'>
+</div>
+</body>
+
+<!-- 高亮未与 markdown兼容  -->
+	<link rel="stylesheet" href="https://csdnimg.cn/release/blog_editor_html/release1.3.9/ckeditor/plugins/chart/chart.css" />
+	<script type="text/javascript" src="https://csdnimg.cn/release/blog_editor_html/release1.3.9/ckeditor/plugins/chart/lib/chart.min.js"></script>
+	<script type="text/javascript" src="https://csdnimg.cn/release/blog_editor_html/release1.3.9/ckeditor/plugins/chart/widget2chart.js"></script>
+	<link rel="stylesheet" href="https://csdnimg.cn/release/blog_editor_html/release1.3.9/ckeditor/plugins/codesnippet/lib/highlight/styles/atom-one-light.css">
+	<script type="text/javascript" src="https://csdnimg.cn/release/phoenix/production/pc_wap_common-45af74a22e.js" /></script>
+
+	<script type="text/javascript">
+
+	</script>
+
+<script src="https://csdnimg.cn/release/phoenix/template/js/common-0100d9c3da.min.js"></script>
+<script src="https://csdnimg.cn/release/phoenix/template/js/detail-aea8c2cbfd.min.js"></script>
+
+	<script src="https://csdnimg.cn/release/phoenix/themes/skin3-template/skin3-template-fc7383b956.min.js"></script>
+<script>
+ // 全局声明
+ if (window.csdn === undefined) {
+      window.csdn = {};
+    }
+    window.csdn.sideToolbar = {
+        options: {
+            report:{
+                isShow: true,
+            },
+            afterFinished: function(){
+                setTimeout(function () {
+                    var viphtml = '<a class="option-box" data-type="vip" href="https://mall.csdn.net/vip" target="_blank">'+
+                        '<img src="https://g.csdnimg.cn/side-toolbar/1.2/images/vip.png" alt="" srcset="">'+
+                        '<span class="show-txt">VIP<br>免广告</span>'+
+                        '</a>';
+                    $('.csdn-side-toolbar').prepend(viphtml)
+                },300)
+            }
+        }
+    }
+
+    $(function(){
+        $(document).on('click',"a.option-box[data-type='report']",function() {
+            showReport(false,articleTitles)
+        });
+    })
+</script>
+<script src="https://g.csdnimg.cn/side-toolbar/1.2/side-toolbar.js"></script>
+
+    <script src="//g.csdnimg.cn/??login-box/1.0.5/login-box.js,login-box/1.0.5/login-auto.js,copyright/1.0.3/copyright.js,baidu-search/1.0.0/baidu-search.js?t=20190307095522"  type="text/javascript"></script>
+
+<script type="text/javascript" src="https://csdnimg.cn/release/blog_mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            "HTML-CSS": {
+                    linebreaks: { automatic: true, width: "94%container" },
+                    imageFont: null
+            },
+            tex2jax: {
+                preview: "none"
+            },
+            mml2jax: {
+                preview: 'none'
+            }
+    });
+</script>
+<script type="text/javascript">
+    </script>
+<script src="https://gh.bdstatic.com/static/gh/js/sdk/bword.min.js"></script>
+</html>
