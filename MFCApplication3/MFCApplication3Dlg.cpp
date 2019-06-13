@@ -70,11 +70,12 @@ BEGIN_MESSAGE_MAP(CMFCApplication3Dlg, CDialogEx)
 	ON_WM_SYSCOMMAND()
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
-	ON_BN_CLICKED(IDC_CHECK1, &CMFCApplication3Dlg::OnBnClickedCheck1)
 	ON_BN_CLICKED(IDC_BUTTON1, &CMFCApplication3Dlg::OnBnClickedButton0)
 	ON_BN_CLICKED(IDC_BUTTON2, &CMFCApplication3Dlg::OnBnClickedButton2)
 	ON_NOTIFY(LVN_ITEMCHANGED, IDC_LIST1, &CMFCApplication3Dlg::OnLvnItemchangedList1)
 	ON_BN_CLICKED(IDC_BUTTON6, &CMFCApplication3Dlg::OnBnClickedButton6)
+	ON_BN_CLICKED(IDC_BUTTON4, &CMFCApplication3Dlg::OnBnClickedButton4)
+	ON_BN_CLICKED(IDC_BUTTON3, &CMFCApplication3Dlg::OnBnClickedButton3)
 END_MESSAGE_MAP()
 
 
@@ -290,17 +291,11 @@ UINT CMFCApplication3Dlg::Crawl(LPVOID pParam) {
 
 
 
-void CMFCApplication3Dlg::OnBnClickedCheck1() {
-
-}
 
 void CMFCApplication3Dlg::OnBnClickedButton2()
 {
 	// TODO: 在此添加控件通知处理程序代码
-	Dialog2 dlg;
 	pThread->SuspendThread();
-	dlg.DoModal();
-	
 }
 
 
@@ -308,5 +303,20 @@ void CMFCApplication3Dlg::OnBnClickedButton2()
 void CMFCApplication3Dlg::OnBnClickedButton6()
 {
 	pThread->ResumeThread();
+	// TODO: 在此添加控件通知处理程序代码
+}
+
+
+void CMFCApplication3Dlg::OnBnClickedButton4()
+{
+	Dialog2 dlg;
+	dlg.DoModal();
+	// TODO: 在此添加控件通知处理程序代码
+}
+
+
+void CMFCApplication3Dlg::OnBnClickedButton3()
+{
+	MessageBox(_T("Log Generation Successful"),_T("log"),MB_OK);
 	// TODO: 在此添加控件通知处理程序代码
 }

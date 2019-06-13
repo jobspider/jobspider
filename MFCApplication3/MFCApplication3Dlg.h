@@ -33,10 +33,11 @@ protected:
 public:
 	CListCtrl m_ctllist;
 	afx_msg void OnLvnItemchangedList1(NMHDR *pNMHDR, LRESULT *pResult);
-	afx_msg void OnBnClickedCheck1();
 	afx_msg void OnBnClickedButton0();
 	afx_msg void OnBnClickedButton2();
 	static UINT Crawl(LPVOID lpParam);
 	afx_msg void OnBnClickedButton6();
+	afx_msg void OnBnClickedButton4();
+	afx_msg void OnBnClickedButton3();
 }
 ;

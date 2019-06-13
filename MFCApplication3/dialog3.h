@@ -22,4 +22,13 @@ protected:
 	DECLARE_MESSAGE_MAP()
 public:
 	afx_msg void OnBnClickedOk();
+	CEdit jobName;
+	CEdit urlSource;
+	CEdit company;
+	CEdit pubDate;
+	CEdit workPlace;
+	CEdit salary;
+	CEdit contact;
+	CEdit jobInformation;
+	CEdit companyInformation;
 };

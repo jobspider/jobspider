@@ -24,6 +24,15 @@ dialog3::~dialog3()
 void dialog3::DoDataExchange(CDataExchange* pDX)
 {
 	CDialogEx::DoDataExchange(pDX);
+	DDX_Control(pDX, IDC_EDIT1, jobName);
+	DDX_Control(pDX, IDC_EDIT2, urlSource);
+	DDX_Control(pDX, IDC_EDIT3, company);
+	DDX_Control(pDX, IDC_EDIT4, pubDate);
+	DDX_Control(pDX, IDC_EDIT5, workPlace);
+	DDX_Control(pDX, IDC_EDIT7, salary);
+	DDX_Control(pDX, IDC_EDIT10, contact);
+	DDX_Control(pDX, IDC_EDIT13, jobInformation);
+	DDX_Control(pDX, IDC_EDIT14, companyInformation);
 }
 
 

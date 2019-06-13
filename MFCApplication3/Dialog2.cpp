@@ -98,6 +98,7 @@ void Dialog2::OnBnClickedButton1()
 	int k = 0;
 	condition.GetWindowText(s);
 	if (s == "") {
+		m_ctllist1.DeleteAllItems();
 		while (jobs[i].name != "") {
 			s = jobs[i].name.c_str();
 			m_ctllist1.InsertItem(i, s.GetString());
@@ -112,8 +113,8 @@ void Dialog2::OnBnClickedButton1()
 		m_ctllist1.DeleteAllItems();
 		while (jobs[i].name != "") {
 			if (string::npos != jobs[i].name.find(s) || string::npos != jobs[i].company.find(s) || string::npos != jobs[i].place.find(s) || string::npos != jobs[i].salary.find(s) || string::npos != jobs[i].time.find(s)) {
-				s = jobs[i].name.c_str();
-				m_ctllist1.InsertItem(k, s.GetString());
+				CString name = jobs[i].name.c_str();
+				m_ctllist1.InsertItem(k, name.GetString());
 				m_ctllist1.SetItemText(k, 1, jobs[i].company.c_str());
 				m_ctllist1.SetItemText(k, 2, jobs[i].place.c_str());
 				m_ctllist1.SetItemText(k, 3, jobs[i].salary.c_str());
