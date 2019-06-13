@@ -25,10 +25,11 @@ public:
 	CEdit jobName;
 	CEdit urlSource;
 	CEdit company;
-	CEdit pubDate;
-	CEdit workPlace;
+	CEdit Info1;
 	CEdit salary;
 	CEdit contact;
 	CEdit jobInformation;
 	CEdit companyInformation;
+	afx_msg void OnEnChangeEdit4();
+	virtual BOOL OnInitDialog();
 };

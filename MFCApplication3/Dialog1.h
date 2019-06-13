@@ -19,8 +19,11 @@ public:
 protected:
 	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV 支持
 
+//	BOOL OnInitDialog();
+
 	DECLARE_MESSAGE_MAP()
 public:
-	afx_msg void OnBnClickedButton5();
-	afx_msg void OnBnClickedButton3();
+
+	afx_msg void OnEnChangeEdit1();
+	virtual BOOL OnInitDialog();
 };

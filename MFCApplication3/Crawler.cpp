@@ -109,10 +109,8 @@ string HttpRequest(char * host, short port, char * object, char * lpPostData, in
 string getHtml(string url, char* filename)
 {
 	CHttp c;
-	while (!c.AnalyseUrl(url)) {
-		//cout << "无效网址" << endl;
-		return false;
-	}
+	c.AnalyseUrl(url);
+
 
 	char a[30];
 	strcpy_s(a, c.host.c_str());
@@ -220,6 +218,83 @@ void parse(string html)
 
 }
 
+string getHtmlItem(string url)
+{
+	CHttp c;
+	c.AnalyseUrl(url);
+
+
+	char a[30];
+	strcpy_s(a, c.host.c_str());
+	char b[100];
+	strcpy_s(b, c.object.c_str());
+	string recieve = HttpRequest(a, 80, b, NULL, 0);
+
+	return recieve;
+
+}
+
+void parseInfor(string html)
+{
+	//储存解析结果
+	smatch result;
+	//定义正则表达式
+	regex strPattern("<p\\sclass=\"msg\\sltype\"\\stitle=\"(.*)\">");
+	regex numberPattern("");
+	regex experiencePattern("");
+	regex educationPattern("");
+	regex contactPattern("<span\\sclass=\"label\">(.*)</span>(.*)</p >");
+	regex typePattern("");
+	//regex jobInforPattern(R);
+	regex regzhiwei("<div class=\"tBorderTop_box\">[\\s\\S]*?<div class=\"mt10\">");
+	regex componyInforPattern("<div class=\"tmsg inbox\">[\\s\\S]*?</div>");
+	//开始爬取的正则表达式
+	regex numberStartPattern("<div\\sclass=\"tHeader\\stHjob\">");
+	regex companyStartPattern("<div\\sclass=\"tmsg\\sinbox\">");
+
+	//定义字符串的开始与结尾
+	string::const_iterator start = html.begin();
+	string::const_iterator end = html.end();
+	//找到开始解析的位置
+	while (!regex_search(start, end, result, numberStartPattern))
+		start = result[0].second;
+	//开始解析信息主体部分
+	//解析小要求
+	int i = 1;
+	//替换空格及不必要的字符正则表达式
+	regex pattern1("([^nbsp&;|])");
+	regex replaceShort("[&nbsp;|]");
+	regex replaceJob("[<div class=\"tBorderTop_bxm\">/a-z ]");
+	regex replaceCompony("[a-z<>A-Z/=\". &;]");
+	regex replaceSpace("[/ ^\\s + | \\s + $ / g]");
+	while (start != end)
+	{
+		if (regex_search(start, end, result, strPattern))
+		{
+			string str = result[1];
+			string s = regex_replace(str, replaceShort, "");
+			cout << "简介：" << s << endl;
+		}
+
+		if (regex_search(start, end, result, regzhiwei))
+		{
+			string str2 = regex_replace(result.str(), replaceJob, "");
+
+			cout << "工作信息：" << regex_replace(str2, replaceSpace, "") << endl;
+		}
+		if (regex_search(start, end, result, contactPattern))
+			cout << "联系方式:" << result[2] << endl;
+
+		if (regex_search(start, end, result, componyInforPattern))
+		{
+			string str = regex_replace(result.str(), replaceCompony, "");
+			cout << "公司信息：" << regex_replace(str, replaceSpace, "") << endl;
+		}
+
+		start = result[0].second;
+	}
+
+}
 
 /*
 int main() {

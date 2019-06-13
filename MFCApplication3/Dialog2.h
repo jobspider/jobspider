@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-
+#include"dialog3.h"
 // Dialog2 对话框
 
 class Dialog2 : public CDialogEx
@@ -25,8 +25,8 @@ public:
 	virtual BOOL OnInitDialog();
 	CListCtrl m_ctllist1;
 	afx_msg void OnBnClickedOk();
-	afx_msg void OnBnClickedButton4();
 	afx_msg void OnBnClickedButton2();
 	afx_msg void OnBnClickedButton1();
 	CEdit condition;
+	afx_msg void OnLvnItemchangedList1(NMHDR *pNMHDR, LRESULT *pResult);
 };

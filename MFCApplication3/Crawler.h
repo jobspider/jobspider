@@ -22,7 +22,22 @@ public:
 	string time;
 	string html;
 };
+class info {
+public:
+	string name;
+	string company;
+	string salary;
+	string html;
+	string Info;
+	string jobInformation;
+	string contact;
+	string companyInformation;
+};
 //string HttpRequest(char * host, short port, char * object, char * lpPostData, int nPostDataLen);
 string getHtml(string url, char* filename);
 void searchJob();
-void parse(string html);
+void parse(string);
+//解析职位信息
+void parseInfor(string);
+//获得子链接
+string getHtmlItem(string);

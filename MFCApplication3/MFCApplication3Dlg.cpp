@@ -200,7 +200,7 @@ UINT CMFCApplication3Dlg::Crawl(LPVOID pParam) {
 	int n = 1;//页码
 	string url = "https://search.51job.com/list/010000,000000,0000,00,9,99,%2B,2,";
 	int i = 0;//工作编号
-	while (n < 2) {//爬取前30页
+	while (n < 30) {//爬取前30页
 		char page[3];
 		sprintf_s(page, "%d", n);
 		url = url + page + ".html";
