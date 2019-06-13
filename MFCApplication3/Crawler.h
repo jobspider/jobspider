@@ -20,8 +20,9 @@ public:
 	string place;
 	string salary;
 	string time;
-	void parse(string html);
+	string html;
 };
 //string HttpRequest(char * host, short port, char * object, char * lpPostData, int nPostDataLen);
 string getHtml(string url, char* filename);
 void searchJob();
+void parse(string html);

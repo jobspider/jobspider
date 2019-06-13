@@ -188,13 +188,11 @@ void CMFCApplication3Dlg::OnBnClickedButton0() {
 	/*Dialog1 dlg;
 	dlg.DoModal();
 */		
-	Job jobs;
-	string t=getHtml("https://jobs.51job.com/beijing-cyq/114381705.html?s=01&t=0", "1");
-
-	jobs.parse(t);
-
-	CString s = jobs.name.c_str();
-	m_ctllist.InsertItem(1, s.GetString());
+	string t=getHtml("https://search.51job.com/list/010000,000000,0000,00,9,99,%2B,2,1.html", "1");
+	parse(t);
+	for (int i = 0; i < 30; i++) {
+		m_ctllist.InsertItem(1, jobs[i].name.c_str());
+	}
 }
 
 void CMFCApplication3Dlg::OnBnClickedCheck1() {

@@ -34,16 +34,16 @@ bool CHttp::AnalyseUrl(string url)
 		i = url.length();
 		host = url.substr(k);
 		object = "/";
-		cout << "主机名:" << host << endl;
-		cout << "资源名:" << object << endl;
+		//cout << "主机名:" << host << endl;
+		//cout << "资源名:" << object << endl;
 	}
 	else {
 		//主机名
 		host = url.substr(k, i - k);
 		//资源名
 		object = url.substr(i);
-		cout << "主机名:" << host << endl;
-		cout << "资源名:" << object << endl;
+		//cout << "主机名:" << host << endl;
+		//cout << "资源名:" << object << endl;
 	}
 	return true;
 }
@@ -64,21 +64,21 @@ string HttpRequest(char * host, short port, char * object, char * lpPostData, in
 	hInternet = (HINSTANCE)InternetOpen("User-Agent", INTERNET_OPEN_TYPE_PRECONFIG, NULL, NULL, 0);
 	if (!hInternet) {
 		InternetCloseHandle(hInternet);
-		cout << "连接失败" << endl;
+		//cout << "连接失败" << endl;
 		return false;
 	}
 	//Connect得到request句柄 访问HTTP
 	hConnect = (HINSTANCE)InternetConnect(hInternet, host, port, NULL, "HTTP/1.1", INTERNET_SERVICE_HTTP, 0, 0);
 	if (!hConnect) {
 		InternetCloseHandle(hConnect);
-		cout << "连接失败" << endl;
+		//cout << "连接失败" << endl;
 		return false;
 	}
 	//Request发送数据
 	hRequest = (HINSTANCE)HttpOpenRequest(hConnect, "GET", object, "HTTP/1.1", NULL, NULL, INTERNET_FLAG_RELOAD, 0);
 	if (!hRequest) {
 		InternetCloseHandle(hConnect);
-		cout << "连接失败" << endl;
+		//cout << "连接失败" << endl;
 		return false;
 	}
 
@@ -110,10 +110,9 @@ string getHtml(string url, char* filename)
 {
 	CHttp c;
 	while (!c.AnalyseUrl(url)) {
-		cout << "无效网址" << endl;
-		cin >> url;
+		//cout << "无效网址" << endl;
+		return false;
 	}
-
 
 	char a[30];
 	strcpy_s(a, c.host.c_str());
@@ -127,7 +126,6 @@ string getHtml(string url, char* filename)
 	fwrite(recieve.c_str(), 1, recieve.length(), fp);
 	fclose(fp);
 	return recieve;
-
 }
 
 
@@ -145,7 +143,7 @@ void searchJob() {
 		sprintf_s(page, "%d", i);
 
 		url = url + page + ".html";
-		cout << "正在爬取:" + url << endl;
+		//cout << "正在爬取:" + url << endl;
 		getHtml(url, page);
 		i++;
 
@@ -154,8 +152,10 @@ void searchJob() {
 
 }
 
+
+extern Job *jobs;
 //解析职位列表
-void Job::parse(string html)
+void parse(string html)
 {
 	//储存结果
 	smatch result;
@@ -175,38 +175,44 @@ void Job::parse(string html)
 		start = result[0].second;
 	//定义一个结构体数组存储职位信息
 	//开始解析
-
+	int i = 0;
 	while (start != end) {
 		//匹配职位名
 		if (regex_search(start, end, result, jobPattern))
 		{
-			cout << "职位：" << result[1] << " " << result[2] << endl;
+			//cout << "职位：" << result[1] << " " << result[2] << endl;
+			jobs[i].name = result[1];
+			jobs[i].html = result[2];
 		}
 		//匹配公司名
 		if (regex_search(start, end, result, componyPattern))
 		{
-			cout << "公司：" << result[1] << " " << result[2] << endl;
+			//cout << "公司：" << result[1] << " " << result[2] << endl;
+			jobs[i].company = result[1];
 		}
 		//匹配公司所在地区
 		if (regex_search(start, end, result, locationPattern))
 		{
 
-			cout << "公司所在地：" << result[1] << endl;
+			//cout << "公司所在地：" << result[1] << endl;
+			jobs[i].place = result[1];
 		}
 		//匹配薪水
 		if (regex_search(start, end, result, salaryPattern))
 		{
 
-			cout << "薪资：" << result[1] << endl;
+			//cout << "薪资：" << result[1] << endl;
+			jobs[i].salary = result[1];
 		}
 		//匹配发布日期
 		if (regex_search(start, end, result, dataPattern))
 		{
-			cout << "发布日期：" << result[1] << endl;
+			//cout << "发布日期：" << result[1] << endl;
+			jobs[i].time = result[1];
 		}
-		cout << endl;
+		//cout << endl;
 		start = result[0].second;
-
+		i++;
 	}
 
 
