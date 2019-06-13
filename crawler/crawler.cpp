@@ -3,6 +3,7 @@
 #include "Wininet.h"
 #include<Windows.h>
 #include<string>
+#include <thread>
 #pragma comment(lib,"Wininet.lib")
 using namespace std;
 
@@ -85,6 +86,7 @@ string HttpRequest(char * host, short port, char * object, char * lpPostData, in
 	while (TRUE)
 	{
 		char Buffer[4096];
+		memset(Buffer, 0, 4096);
 		unsigned long lNumberOfBytesRead;
 		bRet = InternetReadFile(hRequest, Buffer, sizeof(Buffer) - 1, &lNumberOfBytesRead);
 		if (!bRet || !lNumberOfBytesRead)
@@ -97,21 +99,15 @@ string HttpRequest(char * host, short port, char * object, char * lpPostData, in
 }
 
 
-int main()
+
+string getHtml(string url,char* filename)
 {
 	CHttp c;
-	string url;
-	cin >> url;
-
 	while(!c.AnalyseUrl(url)) {
 		cout <<"无效网址"<< endl;
 		cin >> url;
 	}
 
-	//https://search.51job.com/list/010000,000000,0000,00,9,99,%2B,2,1.html
-	//https://search.51job.com/list/010000,000000,0000,00,9,99,%2B,2,2.html
-	//https://search.51job.com/list/010000,000000,0000,00,9,99,%2B,2,3.html
-	//改最后的数字跳转页码
 
 	char a[30];
 	strcpy_s(a, c.host.c_str());
@@ -119,13 +115,45 @@ int main()
 	strcpy_s(b, c.object.c_str());
 	string recieve = HttpRequest(a, 80, b, NULL, 0);
 
-	cout << recieve.c_str();
-
+	//cout << recieve.c_str();
 	FILE * fp;
-	errno_t t = fopen_s(&fp, "log.txt", "w");
+	errno_t t = fopen_s(&fp, filename, "w");
 	fwrite(recieve.c_str(), 1, recieve.length(), fp);
 	fclose(fp);
-	return 0;
+	return recieve;
+
 }
 
 
+void searchJob() {
+	//https://search.51job.com/list/010000,000000,0000,00,9,99,%2B,2,1.html
+	//https://search.51job.com/list/010000,000000,0000,00,9,99,%2B,2,2.html
+	//https://search.51job.com/list/010000,000000,0000,00,9,99,%2B,2,3.html
+	//改最后的数字跳转页码
+
+	int i = 1;
+	while (i < 30) {
+		string url = "https://search.51job.com/list/010000,000000,0000,00,9,99,%2B,2,";
+
+		char page[50];
+		sprintf_s(page, "%d", i);
+
+		url = url + page + ".html";
+		cout << "正在爬取:" + url << endl;
+		
+
+		getHtml(url, page);
+
+		i++;
+		Sleep(500);
+	}
+
+}
+
+
+int main() {
+	std::thread t1(searchJob);
+	t1.detach();
+	std::thread t2(getchar);
+	t2.join();
+}
