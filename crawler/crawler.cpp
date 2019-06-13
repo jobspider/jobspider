@@ -122,7 +122,7 @@ int main()
 	cout << recieve.c_str();
 
 	FILE * fp;
-	errno_t t = fopen_s(&fp, "log", "w");
+	errno_t t = fopen_s(&fp, "log.txt", "w");
 	fwrite(recieve.c_str(), 1, recieve.length(), fp);
 	fclose(fp);
 	return 0;
