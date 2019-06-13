@@ -22,7 +22,7 @@
     var lang = [];
     var supporthttps = 1; //浏览器是否支持https
     var currenthttps = (window.location.protocol === 'https:') ? '1' : '0'; //当前是否为https
-    var systemtime = 1560447674093;
+    var systemtime = 1560448077090;
     var d_system_client_time = systemtime - new Date().getTime();
     var trackConfig = {
         'guid': '9cba7df809968098a7e828b021d43efd',
@@ -54,7 +54,7 @@
             m : 'https://m.51job.com',
             cdn : '//js.51jobcdn.com',
             help : 'https://help.51job.com',
-            img : '//img05.51jobcdn.com',
+            img : '//img04.51jobcdn.com',
             dj : '//it.51job.com',
             mdj : '//mit.51job.com',
             mq : '//mq.51job.com',
@@ -70,8 +70,8 @@ window.cfg.lang = 'c';
 window.cfg.fullLang = 'Chinese';
 window.cfg.url = {
 root : 'https://search.51job.com/jobsearch',
-image : '//img06.51jobcdn.com/im/2009',
-image_search : '//img05.51jobcdn.com/im/2009/search',
+image : '//img05.51jobcdn.com/im/2009',
+image_search : '//img02.51jobcdn.com/im/2009/search',
 i : '//i.51job.com'
 }
 window.cfg.fileName = 'index.php';
@@ -480,7 +480,7 @@ window.cfg.isJobview = '1';
     }
 </script>    <div class="nag" id="topIndex">
         <div class="in">
-            <a href="//www.51job.com"><img class="logo" id="logo" width="90" height="40" src="//img04.51jobcdn.com/im/2016/logo/logo_blue.png" alt="前程无忧"></a>
+            <a href="//www.51job.com"><img class="logo" id="logo" width="90" height="40" src="//img05.51jobcdn.com/im/2016/logo/logo_blue.png" alt="前程无忧"></a>
                 <img class="slogen" id="slogen" width="162" height="17" src="//img01.51jobcdn.com/im/2016/header/slogen.png?1544426366">
             
 <p class="nlink">
@@ -1082,7 +1082,7 @@ window.cfg.isJobview = '1';
                 全选
             </div>
             <div class="op">
-                <span track-type="searchTrackButtonClick" event-type="13" onclick="delivery('delivery_jobid', '2', '//i.51job.com', 'c', 'https://search.51job.com', '01', '01', '//img02.51jobcdn.com');" class="but_sq uck"><i class="dicon Dm"></i>申请职位</span><span track-type="searchTrackButtonClick" event-type="14" onclick="saveCollection('');" class="but_sc uck"><i class="dicon Dm"></i>收藏职位</span>
+                <span track-type="searchTrackButtonClick" event-type="13" onclick="delivery('delivery_jobid', '2', '//i.51job.com', 'c', 'https://search.51job.com', '01', '01', '//img03.51jobcdn.com');" class="but_sq uck"><i class="dicon Dm"></i>申请职位</span><span track-type="searchTrackButtonClick" event-type="14" onclick="saveCollection('');" class="but_sc uck"><i class="dicon Dm"></i>收藏职位</span>
             </div>
             <div class="sbox">
                 <label>已选：</label>
@@ -1907,7 +1907,7 @@ window.cfg.isJobview = '1';
     <input type="hidden" name="personnel_department_ad_num"   value="0">
     <input type="hidden" name="jobid_list"		value="109921430~111609900~114396493~113466480~114394296~114393813~114391032~108008422~114385173~107348690~114375855~106851700~114384322~114383949~114384224~114381705~114381266~114379476~114378266~114359727~114375186~113757853~114374501~114373701~114369111~114371691~114369656~114367985~114366676~114357391~113075043~114361393~114359732~114357618~111269847~111386691~104525080~114356173~114396170~114395775~114395090~105676686~114394289~110093650~114392702~114389220~114388924~114387818~114387547~114386990">
     <input type="hidden" name="jobid_count"		value="100000">
-    <input type="hidden" name="schTime"			value="4158">
+    <input type="hidden" name="schTime"			value="4191">
     <input type="hidden" name="confirmdate"	value="9">
     <input type="hidden" name="welfare"	value="">
     <input type="hidden" name="fromType"		value="">
@@ -1973,11 +1973,11 @@ window.cfg.isJobview = '1';
                 <a href="//company.51job.com" target="_blank">企业名录</a>
             </div>
             <div class="code c_first">
-                <img width="80" height="80" src="//img03.51jobcdn.com/im/2016/code/web_bottom.png" alt="APP下载">
+                <img width="80" height="80" src="//img06.51jobcdn.com/im/2016/code/web_bottom.png" alt="APP下载">
                 <span><a href="http://app.51job.com/index.html">APP下载</a></span>
             </div>
             <div class="code">
-                <img width="80" height="80" src="//img03.51jobcdn.com/im/2016/code/web_fuwuhao_bottom.png" alt="微信服务号">
+                <img width="80" height="80" src="//img06.51jobcdn.com/im/2016/code/web_fuwuhao_bottom.png" alt="微信服务号">
                 <span>微信服务号</span>
             </div>
             <div class="clear"></div>
