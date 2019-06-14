@@ -99,7 +99,7 @@ void Dialog2::OnBnClickedButton2()
 	int  i = 0;
 	Job job;
 	while (jobs[i].name != "") {
-		if (jobs[i].name.find(name)) {
+		if (!string::npos==jobs[i].name.find(name)) {
 			job = jobs[i];
 			break;
 		}

@@ -76,7 +76,7 @@ BOOL dialog3::OnInitDialog()
 	//contact.SetWindowTextA(inf.contact.c_str());
 	jobInformation.SetWindowTextA(inf.jobInformation.c_str());
 	companyInformation.SetWindowTextA(inf.companyInformation.c_str());
-
+	UpdateWindow();
 	return TRUE;  // return TRUE unless you set the focus to a control
 				  // 异常: OCX 属性页应返回 FALSE
 }

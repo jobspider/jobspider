@@ -22,11 +22,11 @@
     var lang = [];
     var supporthttps = 1; //浏览器是否支持https
     var currenthttps = (window.location.protocol === 'https:') ? '1' : '0'; //当前是否为https
-    var systemtime = 1560455855851;
+    var systemtime = 1560471637287;
     var d_system_client_time = systemtime - new Date().getTime();
     var trackConfig = {
         'guid': '9cba7df809968098a7e828b021d43efd',
-        'ip': '123.120.4.124',
+        'ip': '182.48.107.150',
         'accountid': '',
         'refpage': '',
         'refdomain': '',
@@ -54,7 +54,7 @@
             m : 'https://m.51job.com',
             cdn : '//js.51jobcdn.com',
             help : 'https://help.51job.com',
-            img : '//img05.51jobcdn.com',
+            img : '//img01.51jobcdn.com',
             dj : '//it.51job.com',
             mdj : '//mit.51job.com',
             mq : '//mq.51job.com',
@@ -70,7 +70,7 @@ window.cfg.lang = 'c';
 window.cfg.fullLang = 'Chinese';
 window.cfg.url = {
 root : 'https://search.51job.com/jobsearch',
-image : '//img06.51jobcdn.com/im/2009',
+image : '//img03.51jobcdn.com/im/2009',
 image_search : '//img03.51jobcdn.com/im/2009/search',
 i : '//i.51job.com'
 }
@@ -166,7 +166,7 @@ window.cfg.isJobview = '1';
                 <ul>
                     <li><em class="e_icon"></em><a href="http://app.51job.com/index.html">APP下载</a><em class="icon_arrow"></em></li>
                     <li>
-                        <img width="80" height="80" src="//img02.51jobcdn.com/im/2016/code/web_top.png" alt="app download">
+                        <img width="80" height="80" src="//img01.51jobcdn.com/im/2016/code/web_top.png" alt="app download">
                         <p><a href="http://app.51job.com/index.html">APP下载</a></p>
                     </li>
                 </ul>
@@ -1082,7 +1082,7 @@ window.cfg.isJobview = '1';
                 全选
             </div>
             <div class="op">
-                <span track-type="searchTrackButtonClick" event-type="13" onclick="delivery('delivery_jobid', '2', '//i.51job.com', 'c', 'https://search.51job.com', '01', '01', '//img01.51jobcdn.com');" class="but_sq uck"><i class="dicon Dm"></i>申请职位</span><span track-type="searchTrackButtonClick" event-type="14" onclick="saveCollection('');" class="but_sc uck"><i class="dicon Dm"></i>收藏职位</span>
+                <span track-type="searchTrackButtonClick" event-type="13" onclick="delivery('delivery_jobid', '2', '//i.51job.com', 'c', 'https://search.51job.com', '01', '01', '//img04.51jobcdn.com');" class="but_sq uck"><i class="dicon Dm"></i>申请职位</span><span track-type="searchTrackButtonClick" event-type="14" onclick="saveCollection('');" class="but_sc uck"><i class="dicon Dm"></i>收藏职位</span>
             </div>
             <div class="sbox">
                 <label>已选：</label>
@@ -1123,6 +1123,300 @@ window.cfg.isJobview = '1';
                                                                                                                 <div class="el">
                         <p class="t1 ">
                             <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="108792352" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="美术老师" href="https://jobs.51job.com/beijing-fsq/108792352.html?s=01&t=0" onmousedown="">
+                                    美术老师                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="北京伊然未来教育咨询有限公司" href="https://jobs.51job.com/all/co5227337.html">北京伊然未来教育咨询有限公司</a></span>
+                        <span class="t3">北京-房山区</span>
+                        <span class="t4">0.8-1万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="113899731" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="轮胎销售/销售主管/销售经理" href="https://jobs.51job.com/beijing/113899731.html?s=01&t=0" onmousedown="">
+                                    轮胎销售/销售主管/销售经理                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="锦湖（中国）轮胎销售有限公司" href="https://jobs.51job.com/all/co1328921.html">锦湖（中国）轮胎销售有限公司</a></span>
+                        <span class="t3">北京</span>
+                        <span class="t4">0.5-1.2万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 tg1">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="104817056" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="行政前台" href="https://jobs.51job.com/beijing-cyq/104817056.html?s=01&t=0" onmousedown="">
+                                    行政前台                                </a>
+                            </span>
+                            <img width="29" height="18" src="//img06.51jobcdn.com/im/jobs/tag_shixi.png" alt="实习">                                                    </p>
+                        <span class="t2"><a target="_blank" title="广州乐欣母婴用品有限公司北京分公司" href="https://jobs.51job.com/all/co3812662.html">广州乐欣母婴用品有限公司北京分公司</a></span>
+                        <span class="t3">北京-朝阳区</span>
+                        <span class="t4">3-4.5千/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114397107" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="会议执行（长期合作）" href="https://jobs.51job.com/beijing-cyq/114397107.html?s=01&t=0" onmousedown="">
+                                    会议执行（长期合作）                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="北京瑞都国际旅行社有限责任公司" href="https://jobs.51job.com/all/co5041381.html">北京瑞都国际旅行社有限责任公司</a></span>
+                        <span class="t3">北京-朝阳区</span>
+                        <span class="t4">350元/天</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="110683794" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="Lianjia.链家——应届毕业生/实习生（全职）" href="https://jobs.51job.com/beijing/110683794.html?s=01&t=0" onmousedown="">
+                                    Lianjia.链家——应届毕业生/实习生（全职）                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="北京链家房地产经纪有限公司-BJ050" href="https://jobs.51job.com/all/co3752239.html">北京链家房地产经纪有限公司-BJ050</a></span>
+                        <span class="t3">北京</span>
+                        <span class="t4">0.8-1万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114297291" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="人事专员" href="https://jobs.51job.com/beijing-cyq/114297291.html?s=01&t=0" onmousedown="">
+                                    人事专员                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="北京小蜗牛清洁服务有限公司" href="https://jobs.51job.com/all/co5530029.html">北京小蜗牛清洁服务有限公司</a></span>
+                        <span class="t3">北京-朝阳区</span>
+                        <span class="t4">6-8千/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="113973695" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="市场营销专员（应届生+宿舍）" href="https://jobs.51job.com/beijing-syq/113973695.html?s=01&t=0" onmousedown="">
+                                    市场营销专员（应届生+宿舍）                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="北京隆源自动成型系统有限公司" href="https://jobs.51job.com/all/co5434270.html">北京隆源自动成型系统有限公司</a></span>
+                        <span class="t3">北京-顺义区</span>
+                        <span class="t4">4.5-6千/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114300486" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="人事主管（偏薪酬方向）" href="https://jobs.51job.com/beijing-dcq/114300486.html?s=01&t=0" onmousedown="">
+                                    人事主管（偏薪酬方向）                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="北京家视天下科技有限公司" href="https://jobs.51job.com/all/co2846959.html">北京家视天下科技有限公司</a></span>
+                        <span class="t3">北京-东城区</span>
+                        <span class="t4">0.7-1万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="111135304" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="高级网络工程师" href="https://jobs.51job.com/beijing-hdq/111135304.html?s=01&t=0" onmousedown="">
+                                    高级网络工程师                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="北京金信润天信息技术股份有限公司" href="https://jobs.51job.com/all/co1170559.html">北京金信润天信息技术股份有限公司</a></span>
+                        <span class="t3">北京-海淀区</span>
+                        <span class="t4">1.2-1.8万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="72476529" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="幼儿芭蕾舞老师" href="https://jobs.51job.com/beijing-cyq/72476529.html?s=01&t=0" onmousedown="">
+                                    幼儿芭蕾舞老师                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="北京腾天文化艺术交流有限公司" href="https://jobs.51job.com/all/co3044029.html">北京腾天文化艺术交流有限公司</a></span>
+                        <span class="t3">北京-朝阳区</span>
+                        <span class="t4">200元/天</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="109286897" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="人力资源经理" href="https://jobs.51job.com/beijing-tzq/109286897.html?s=01&t=0" onmousedown="">
+                                    人力资源经理                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="弗格纳传动设备（北京）有限公司" href="https://jobs.51job.com/all/co5201156.html">弗格纳传动设备（北京）有限公司</a></span>
+                        <span class="t3">北京-通州区</span>
+                        <span class="t4">0.8-1.6万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114144573" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="核算专员" href="https://jobs.51job.com/beijing-cyq/114144573.html?s=01&t=0" onmousedown="">
+                                    核算专员                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="北京速优装饰有限公司" href="https://jobs.51job.com/all/co4069821.html">北京速优装饰有限公司</a></span>
+                        <span class="t3">北京-朝阳区</span>
+                        <span class="t4">5-6.5千/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="109996463" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="HSE专员" href="https://jobs.51job.com/beijing-hdq/109996463.html?s=01&t=0" onmousedown="">
+                                    HSE专员                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="中化道达尔燃油有限公司" href="https://jobs.51job.com/all/co859602.html">中化道达尔燃油有限公司</a></span>
+                        <span class="t3">北京-海淀区</span>
+                        <span class="t4">0.8-1万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="99067193" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="欢乐口腔亚运村分院 急聘前台" href="https://jobs.51job.com/beijing-cyq/99067193.html?s=01&t=0" onmousedown="">
+                                    欢乐口腔亚运村分院 急聘前台                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="北京欢乐英卓医院管理有限公司" href="https://jobs.51job.com/all/co3524392.html">北京欢乐英卓医院管理有限公司</a></span>
+                        <span class="t3">北京-朝阳区</span>
+                        <span class="t4">4-8千/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="74687811" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="财务中心总经理（上市公司、集团公司相关工作经验）" href="https://jobs.51job.com/beijing-ftq/74687811.html?s=01&t=0" onmousedown="">
+                                    财务中心总经理（上市公司、集团公司相关工作经验）                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="中标建设集团股份有限公司" href="https://jobs.51job.com/all/co3617751.html">中标建设集团股份有限公司</a></span>
+                        <span class="t3">北京-丰台区</span>
+                        <span class="t4">2-4万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="113643288" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="实施工程师" href="https://jobs.51job.com/beijing/113643288.html?s=01&t=0" onmousedown="">
+                                    实施工程师                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="中车信息技术有限公司" href="https://jobs.51job.com/all/co145318.html">中车信息技术有限公司</a></span>
+                        <span class="t3">北京</span>
+                        <span class="t4">0.6-1.2万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="104253876" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="医药代表" href="https://jobs.51job.com/beijing/104253876.html?s=01&t=0" onmousedown="">
+                                    医药代表                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="吉巷（上海）医疗器械有限公司" href="https://jobs.51job.com/all/co3550196.html">吉巷（上海）医疗器械有限公司</a></span>
+                        <span class="t3">北京</span>
+                        <span class="t4">0.8-1万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 tg1">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="112445675" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="市场专员+包住宿" href="https://jobs.51job.com/beijing-cyq/112445675.html?s=01&t=0" onmousedown="">
+                                    市场专员+包住宿                                </a>
+                            </span>
+                                                        <img width="18" height="18" src="//img03.51jobcdn.com/im/jobs/tag_talk.png" alt="闪" title="HR会快速回复该职位的投递申请">                        </p>
+                        <span class="t2"><a target="_blank" title="勤业贸易" href="https://jobs.51job.com/all/co5117208.html">勤业贸易</a></span>
+                        <span class="t3">北京-朝阳区</span>
+                        <span class="t4">1-1.5万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="105255646" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="销售（弹性工作）" href="https://jobs.51job.com/beijing/105255646.html?s=01&t=0" onmousedown="">
+                                    销售（弹性工作）                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="太平人寿保险有限公司北京分公司海淀营销服务部" href="https://jobs.51job.com/all/co3589349.html">太平人寿保险有限公司北京分公司海...</a></span>
+                        <span class="t3">北京</span>
+                        <span class="t4">2.5-3万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114277695" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="直招 普工 跟单员 ，包食宿+待遇好" href="https://jobs.51job.com/shanghai/114277695.html?s=01&t=0" onmousedown="">
+                                    直招 普工 跟单员 ，包食宿+待遇好                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="无棣海顺物流运输有限公司" href="https://jobs.51job.com/all/co5477526.html">无棣海顺物流运输有限公司</a></span>
+                        <span class="t3">异地招聘</span>
+                        <span class="t4">1-1.5万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114223017" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="跟货保安和厨师（需出差）" href="https://jobs.51job.com/shanghai/114223017.html?s=01&t=0" onmousedown="">
+                                    跟货保安和厨师（需出差）                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="赢甜大通国际贸易有限公司" href="https://jobs.51job.com/all/co5520729.html">赢甜大通国际贸易有限公司</a></span>
+                        <span class="t3">异地招聘</span>
+                        <span class="t4">0.8-1万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
                             <input class="checkbox" type="checkbox" name="delivery_jobid" value="111628726" jt="0" style="display:none" />
                             <span>
                                 <a target="_blank" title="财务管理软件销售经理" href="https://jobs.51job.com/beijing/111628726.html?s=01&t=0" onmousedown="">
@@ -1135,14 +1429,14 @@ window.cfg.isJobview = '1';
                         <span class="t5">06-14</span>
                     </div>
                                                                                                     <div class="el">
-                        <p class="t1 ">
+                        <p class="t1 tg1">
                             <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114149896" jt="0" style="display:none" />
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114149347" jt="0" style="display:none" />
                             <span>
-                                <a target="_blank" title="招出差普工\物流专员和叉车司机" href="https://jobs.51job.com/shanghai/114149896.html?s=01&t=0" onmousedown="">
-                                    招出差普工\物流专员和叉车司机                                </a>
+                                <a target="_blank" title="招出差保安和厨师" href="https://jobs.51job.com/shanghai/114149347.html?s=01&t=0" onmousedown="">
+                                    招出差保安和厨师                                </a>
                             </span>
-                                                                                </p>
+                                                        <img width="18" height="18" src="//img02.51jobcdn.com/im/jobs/tag_talk.png" alt="闪" title="HR会快速回复该职位的投递申请">                        </p>
                         <span class="t2"><a target="_blank" title="玉溪智富贸易有限公司" href="https://jobs.51job.com/all/co5509862.html">玉溪智富贸易有限公司</a></span>
                         <span class="t3">异地招聘</span>
                         <span class="t4">1-1.5万/月</span>
@@ -1193,20 +1487,6 @@ window.cfg.isJobview = '1';
                                                                                                     <div class="el">
                         <p class="t1 ">
                             <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114396493" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="语文主讲-清北网校项目" href="https://jobs.51job.com/beijing/114396493.html?s=01&t=0" onmousedown="">
-                                    语文主讲-清北网校项目                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="字节跳动" href="https://jobs.51job.com/all/co2758227.html">字节跳动</a></span>
-                        <span class="t3">北京</span>
-                        <span class="t4">1-2万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
                             <input class="checkbox" type="checkbox" name="delivery_jobid" value="113466480" jt="0" style="display:none" />
                             <span>
                                 <a target="_blank" title="美团点评销售专员（海淀/丰台/东西城）" href="https://jobs.51job.com/beijing-hdq/113466480.html?s=01&t=0" onmousedown="">
@@ -1216,441 +1496,21 @@ window.cfg.isJobview = '1';
                         <span class="t2"><a target="_blank" title="美团点评" href="https://jobs.51job.com/all/co2381155.html">美团点评</a></span>
                         <span class="t3">北京-海淀区</span>
                         <span class="t4">0.8-1.6万/月</span>
-                        <span class="t5">06-13</span>
+                        <span class="t5">06-14</span>
                     </div>
                                                                                                     <div class="el">
                         <p class="t1 ">
                             <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114394296" jt="0" style="display:none" />
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="102331983" jt="0" style="display:none" />
                             <span>
-                                <a target="_blank" title="相机应用高级工程师" href="https://jobs.51job.com/beijing-hdq/114394296.html?s=01&t=0" onmousedown="">
-                                    相机应用高级工程师                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="联想集团" href="https://jobs.51job.com/all/co2368313.html">联想集团</a></span>
-                        <span class="t3">北京-海淀区</span>
-                        <span class="t4">2.5-3万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114393813" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="web前端工程师(J18284)" href="https://jobs.51job.com/beijing-hdq/114393813.html?s=01&t=0" onmousedown="">
-                                    web前端工程师(J18284)                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="携程旅行网业务区" href="https://jobs.51job.com/all/co2656195.html">携程旅行网业务区</a></span>
-                        <span class="t3">北京-海淀区</span>
-                        <span class="t4">1-1.5万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114391032" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="HR Campus Recruiting Manager" href="https://jobs.51job.com/beijing/114391032.html?s=01&t=0" onmousedown="">
-                                    HR Campus Recruiting Manager                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="毕马威中国 KPMG China" href="https://jobs.51job.com/all/co2834168.html">毕马威中国 KPMG China</a></span>
-                        <span class="t3">北京</span>
-                        <span class="t4">1.5-3.5万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="108008422" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="智能营销平台-商业产品运营专家-品牌类" href="https://jobs.51job.com/beijing/108008422.html?s=01&t=0" onmousedown="">
-                                    智能营销平台-商业产品运营专家-品牌类                                </a>
+                                <a target="_blank" title="阿里文娱-智能交互(检索/对话/视觉)引擎研发专家" href="https://jobs.51job.com/beijing/102331983.html?s=01&t=0" onmousedown="">
+                                    阿里文娱-智能交互(检索/对话/视觉)引擎研发专家                                </a>
                             </span>
                                                                                 </p>
                         <span class="t2"><a target="_blank" title="阿里巴巴集团" href="https://jobs.51job.com/all/co1991749.html">阿里巴巴集团</a></span>
                         <span class="t3">北京</span>
                         <span class="t4"></span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114385173" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="BMC测试工程师" href="https://jobs.51job.com/beijing/114385173.html?s=01&t=0" onmousedown="">
-                                    BMC测试工程师                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="中国电子科技集团公司第十五研究所（华北计算技术研究所）" href="https://jobs.51job.com/all/co2669753.html">中国电子科技集团公司第十五研究所...</a></span>
-                        <span class="t3">北京</span>
-                        <span class="t4">1-2万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="107348690" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="会计（生产法人结算担当）" href="https://jobs.51job.com/beijing-cyq/107348690.html?s=01&t=0" onmousedown="">
-                                    会计（生产法人结算担当）                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="LG电子（中国）有限公司 LG Electronics China Co., Ltd." href="https://jobs.51job.com/all/co181822.html">LG电子（中国）有限公司 LG Elect...</a></span>
-                        <span class="t3">北京-朝阳区</span>
-                        <span class="t4">4.5-6千/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 tg1">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114375855" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="Business Support Intern" href="https://jobs.51job.com/beijing-cyq/114375855.html?s=01&t=0" onmousedown="">
-                                    Business Support Intern                                </a>
-                            </span>
-                            <img width="29" height="18" src="//img06.51jobcdn.com/im/jobs/tag_shixi.png" alt="实习">                                                    </p>
-                        <span class="t2"><a target="_blank" title="雪佛龙中国下游业务" href="https://jobs.51job.com/all/co2801020.html">雪佛龙中国下游业务</a></span>
-                        <span class="t3">北京-朝阳区</span>
-                        <span class="t4">120元/天</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="106851700" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="销售助理" href="https://jobs.51job.com/beijing-cyq/106851700.html?s=01&t=0" onmousedown="">
-                                    销售助理                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="前锦网络信息技术（上海）有限公司" href="https://jobs.51job.com/all/co3708561.html">前锦网络信息技术（上海）有限公司</a></span>
-                        <span class="t3">北京-朝阳区</span>
-                        <span class="t4">4-6千/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114384322" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="酒店业务BD（怀柔/顺义/平谷）" href="https://jobs.51job.com/beijing-myq/114384322.html?s=01&t=0" onmousedown="">
-                                    酒店业务BD（怀柔/顺义/平谷）                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="携程旅行网北京分公司" href="https://jobs.51job.com/all/co735752.html">携程旅行网北京分公司</a></span>
-                        <span class="t3">北京-密云区</span>
-                        <span class="t4">0.8-1.4万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114383949" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="医药信息沟通专员-呼吸产品" href="http://msdchina.51job.com/sc/show_job_detail.php?jobid=114383949" onmousedown="jobview('114383949');">
-                                    医药信息沟通专员-呼吸产品                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="默沙东（中国）投资有限公司" href="http://msdchina.51job.com">默沙东（中国）投资有限公司</a></span>
-                        <span class="t3">北京-东城区</span>
-                        <span class="t4">0.8-1万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114384224" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="（SFAE） Back Office Sales  室内销售工程师（第三方合同）(北京) （116247）" href="https://jobs.51job.com/beijing/114384224.html?s=01&t=0" onmousedown="">
-                                    （SFAE） Back Office Sales  室内销售工程师（第三方合同）(北京) （116247）                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="西门子工厂自动化工程有限公司(SFAE)" href="https://jobs.51job.com/all/co521816.html">西门子工厂自动化工程有限公司(SFAE)</a></span>
-                        <span class="t3">北京</span>
-                        <span class="t4"></span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114381705" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="高级应收会计 Sr. Revenue AR Accountant" href="https://jobs.51job.com/beijing-cyq/114381705.html?s=01&t=0" onmousedown="">
-                                    高级应收会计 Sr. Revenue AR Accountant                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="Tesla特斯拉汽车" href="https://jobs.51job.com/all/co3101056.html">Tesla特斯拉汽车</a></span>
-                        <span class="t3">北京-朝阳区</span>
-                        <span class="t4">1.5-2万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114381266" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="Senior Manager-Salesforce/Dynamics-Consulting_BJ/SH" href="https://jobs.51job.com/beijing/114381266.html?s=01&t=0" onmousedown="">
-                                    Senior Manager-Salesforce/Dynamics-Consulting_BJ/SH                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="PwC 普华永道" href="https://jobs.51job.com/all/co269327.html">PwC 普华永道</a></span>
-                        <span class="t3">北京</span>
-                        <span class="t4"></span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114379476" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="品质风险管理担当（日语）" href="https://jobs.51job.com/beijing-cyq/114379476.html?s=01&t=0" onmousedown="">
-                                    品质风险管理担当（日语）                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="松下电器（中国）有限公司" href="https://jobs.51job.com/all/co3870433.html">松下电器（中国）有限公司</a></span>
-                        <span class="t3">北京-朝阳区</span>
-                        <span class="t4">0.7-1万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114378266" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="Tax Analyst" href="https://jobs.51job.com/beijing-cyq/114378266.html?s=01&t=0" onmousedown="">
-                                    Tax Analyst                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="亚马逊中国" href="https://jobs.51job.com/all/co100647.html">亚马逊中国</a></span>
-                        <span class="t3">北京-朝阳区</span>
-                        <span class="t4">1.2-1.7万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114359727" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="新媒体运营经理" href="https://jobs.51job.com/beijing/114359727.html?s=01&t=0" onmousedown="">
-                                    新媒体运营经理                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="新东方教育科技集团有限公司" href="https://jobs.51job.com/all/co173435.html">新东方教育科技集团有限公司</a></span>
-                        <span class="t3">北京</span>
-                        <span class="t4">40-50万/年</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114375186" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="E-commerce Manager" href="http://bayer.51job.com/sc/show_job_detail.php?jobid=114375186" onmousedown="jobview('114375186');">
-                                    E-commerce Manager                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="拜耳（中国）有限公司" href="http://bayer.51job.com">拜耳（中国）有限公司</a></span>
-                        <span class="t3">北京</span>
-                        <span class="t4"></span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="113757853" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="助理(医疗健康服务部)-北京-04723" href="http://career.tuv-sud.cn//jobms.php?jobid=113757853" onmousedown="jobview('113757853');">
-                                    助理(医疗健康服务部)-北京-04723                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="TUV SUD China - Beijing / TUV 南德意志集团北京分公司" href="http://career.tuv-sud.cn">TUV SUD China - Beijing / TUV 南...</a></span>
-                        <span class="t3">北京-朝阳区</span>
-                        <span class="t4"></span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114374501" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="销售主管" href="http://sika.51job.com/job_detail.php?jobid=114374501" onmousedown="jobview('114374501');">
-                                    销售主管                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="西卡（中国）有限公司" href="http://sika.51job.com">西卡（中国）有限公司</a></span>
-                        <span class="t3">北京-朝阳区</span>
-                        <span class="t4">0.8-1万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114373701" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="Campaign Specialist/活动专员" href="https://jobs.51job.com/beijing-cyq/114373701.html?s=01&t=0" onmousedown="">
-                                    Campaign Specialist/活动专员                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="上海贝塔斯曼商业服务有限公司北京分公司" href="https://jobs.51job.com/all/co3259972.html">上海贝塔斯曼商业服务有限公司北京...</a></span>
-                        <span class="t3">北京-朝阳区</span>
-                        <span class="t4">6-8千/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114369111" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="海尔&倍世产品销售总监" href="https://jobs.51job.com/beijing/114369111.html?s=01&t=0" onmousedown="">
-                                    海尔&amp;倍世产品销售总监                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="海尔电器集团有限公司" href="https://jobs.51job.com/all/co2210611.html">海尔电器集团有限公司</a></span>
-                        <span class="t3">北京</span>
-                        <span class="t4">20-30万/年</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114371691" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="地区经理--京津（国药事业部）" href="https://jobs.51job.com/beijing/114371691.html?s=01&t=0" onmousedown="">
-                                    地区经理--京津（国药事业部）                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="华润三九医药股份有限公司" href="https://jobs.51job.com/all/co174689.html">华润三九医药股份有限公司</a></span>
-                        <span class="t3">北京</span>
-                        <span class="t4">20-30万/年</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114369656" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="Sr Executive Assistant/资深行政助理" href="http://roche.51job.com/sc/show_job_detail.php?jobid=114369656" onmousedown="jobview('114369656');">
-                                    Sr Executive Assistant/资深行政助理                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="罗氏诊断产品（上海）有限公司" href="http://roche.51job.com/">罗氏诊断产品（上海）有限公司</a></span>
-                        <span class="t3">北京</span>
-                        <span class="t4"></span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114367985" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="辉瑞生物制药-（高级）医学信息沟通专员" href="https://jobs.51job.com/beijing-dcq/114367985.html?s=01&t=0" onmousedown="">
-                                    辉瑞生物制药-（高级）医学信息沟通专员                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="辉瑞制药有限公司" href="https://jobs.51job.com/all/co299805.html">辉瑞制药有限公司</a></span>
-                        <span class="t3">北京-东城区</span>
-                        <span class="t4">1-1.5万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114366676" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="数据分析师-北京" href="https://jobs.51job.com/shenzhen-nsq/114366676.html?s=01&t=0" onmousedown="">
-                                    数据分析师-北京                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="小米通讯技术有限公司" href="https://jobs.51job.com/all/co2449752.html">小米通讯技术有限公司</a></span>
-                        <span class="t3">异地招聘</span>
-                        <span class="t4">1-2万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114357391" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="UI设计师" href="https://jobs.51job.com/hefei-jkq/114357391.html?s=01&t=0" onmousedown="">
-                                    UI设计师                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="美的集团冰箱事业部" href="https://jobs.51job.com/all/co3224944.html">美的集团冰箱事业部</a></span>
-                        <span class="t3">异地招聘</span>
-                        <span class="t4">0.8-1.2万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="113075043" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="订单管理专员" href="https://jobs.51job.com/beijing/113075043.html?s=01&t=0" onmousedown="">
-                                    订单管理专员                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="北京华润北贸医药经营有限公司" href="https://jobs.51job.com/all/co2010563.html">北京华润北贸医药经营有限公司</a></span>
-                        <span class="t3">北京</span>
-                        <span class="t4">6-8千/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114361393" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="前台" href="https://jobs.51job.com/beijing-cyq/114361393.html?s=01&t=0" onmousedown="">
-                                    前台                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="中国建筑股份有限公司海外事业部" href="https://jobs.51job.com/all/co2449741.html">中国建筑股份有限公司海外事业部</a></span>
-                        <span class="t3">北京-朝阳区</span>
-                        <span class="t4">5-7千/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114359732" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="建筑设计师" href="https://jobs.51job.com/qingdao/114359732.html?s=01&t=0" onmousedown="">
-                                    建筑设计师                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="青岛万科房地产有限公司" href="https://jobs.51job.com/all/co2091514.html">青岛万科房地产有限公司</a></span>
-                        <span class="t3">异地招聘</span>
-                        <span class="t4">1-1.5万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114357618" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="Product Marketing Engineer, Softstarter(69230627)" href="https://jobs.51job.com/beijing/114357618.html?s=01&t=0" onmousedown="">
-                                    Product Marketing Engineer, Softstarter(69230627)                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="北京ABB电气传动系统有限公司" href="https://jobs.51job.com/all/co103879.html">北京ABB电气传动系统有限公司</a></span>
-                        <span class="t3">北京</span>
-                        <span class="t4"></span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="111269847" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="智能门锁电商销售经理" href="https://jobs.51job.com/beijing-cyq/111269847.html?s=01&t=0" onmousedown="">
-                                    智能门锁电商销售经理                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="三星信息技术服务（北京）有限公司" href="https://jobs.51job.com/all/co180669.html">三星信息技术服务（北京）有限公司</a></span>
-                        <span class="t3">北京-朝阳区</span>
-                        <span class="t4">2-4万/月</span>
-                        <span class="t5">06-13</span>
+                        <span class="t5">06-14</span>
                     </div>
                                                                                                     <div class="el">
                         <p class="t1 ">
@@ -1664,161 +1524,301 @@ window.cfg.isJobview = '1';
                         <span class="t2"><a target="_blank" title="万达集团股份有限公司" href="https://jobs.51job.com/all/co2014250.html">万达集团股份有限公司</a></span>
                         <span class="t3">北京-朝阳区</span>
                         <span class="t4">5-7千/月</span>
-                        <span class="t5">06-13</span>
+                        <span class="t5">06-14</span>
                     </div>
                                                                                                     <div class="el">
                         <p class="t1 ">
                             <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="104525080" jt="0" style="display:none" />
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114381266" jt="0" style="display:none" />
                             <span>
-                                <a target="_blank" title="给排水工程师（北京）" href="https://jobs.51job.com/beijing/104525080.html?s=01&t=0" onmousedown="">
-                                    给排水工程师（北京）                                </a>
+                                <a target="_blank" title="Senior Manager-Salesforce/Dynamics-Consulting_BJ/SH" href="https://jobs.51job.com/beijing/114381266.html?s=01&t=0" onmousedown="">
+                                    Senior Manager-Salesforce/Dynamics-Consulting_BJ/SH                                </a>
                             </span>
                                                                                 </p>
-                        <span class="t2"><a target="_blank" title="吉博力（上海）投资管理有限公司" href="https://jobs.51job.com/all/co350105.html">吉博力（上海）投资管理有限公司</a></span>
-                        <span class="t3">北京</span>
-                        <span class="t4">0.6-1.5万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114356173" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="Client Advisor" href="https://jobs.51job.com/beijing-xcq/114356173.html?s=01&t=0" onmousedown="">
-                                    Client Advisor                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="古驰（中国）贸易有限公司" href="https://jobs.51job.com/all/co1344873.html">古驰（中国）贸易有限公司</a></span>
-                        <span class="t3">北京-西城区</span>
-                        <span class="t4">0.2-1万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114396170" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="平谷马坊招聘物流仓库专员" href="http://deppon.51job.com/sc/show_job_detail.php?jobid=114396170" onmousedown="jobview('114396170');">
-                                    平谷马坊招聘物流仓库专员                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="上海德邦物流有限公司" href="http://deppon.51job.com">上海德邦物流有限公司</a></span>
-                        <span class="t3">北京-平谷区</span>
-                        <span class="t4">4.4-4.6千/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114395775" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="总部电子商务公司电商运营专员（天猫结案）" href="https://jobs.51job.com/beijing-cyq/114395775.html?s=01&t=0" onmousedown="">
-                                    总部电子商务公司电商运营专员（天猫结案）                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="内蒙古伊利实业集团股份有限公司" href="https://jobs.51job.com/all/co2862068.html">内蒙古伊利实业集团股份有限公司</a></span>
-                        <span class="t3">北京-朝阳区</span>
-                        <span class="t4">0.8-1万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114395090" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="高级产品策划专员（北京）" href="https://jobs.51job.com/beijing-cyq/114395090.html?s=01&t=0" onmousedown="">
-                                    高级产品策划专员（北京）                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="深圳市大疆创新科技有限公司" href="https://jobs.51job.com/all/co1923287.html">深圳市大疆创新科技有限公司</a></span>
-                        <span class="t3">北京-朝阳区</span>
-                        <span class="t4">2-4万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="105676686" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="大客户销售专员" href="https://jobs.51job.com/beijing-cyq/105676686.html?s=01&t=0" onmousedown="">
-                                    大客户销售专员                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="诺心食品（上海）有限公司" href="https://jobs.51job.com/all/co4027888.html">诺心食品（上海）有限公司</a></span>
-                        <span class="t3">北京-朝阳区</span>
-                        <span class="t4">0.8-1.5万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114394289" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="Java开发工程师" href="https://jobs.51job.com/beijing-cyq/114394289.html?s=01&t=0" onmousedown="">
-                                    Java开发工程师                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="史泰博（上海）有限公司" href="https://jobs.51job.com/all/co2105109.html">史泰博（上海）有限公司</a></span>
-                        <span class="t3">北京-朝阳区</span>
-                        <span class="t4">1.5-2万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="110093650" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="人力资源专员" href="https://jobs.51job.com/beijing/110093650.html?s=01&t=0" onmousedown="">
-                                    人力资源专员                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="中联重科金融服务公司" href="https://jobs.51job.com/all/co2484085.html">中联重科金融服务公司</a></span>
-                        <span class="t3">北京</span>
-                        <span class="t4">0.8-1.2万/月</span>
-                        <span class="t5">06-13</span>
-                    </div>
-                                                                                                    <div class="el">
-                        <p class="t1 ">
-                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114392702" jt="0" style="display:none" />
-                            <span>
-                                <a target="_blank" title="Sales Engineer(北京)" href="http://aptiv.51job.com/cv_easy/cv_log.php?jobid=114392702" onmousedown="jobview('114392702');">
-                                    Sales Engineer(北京)                                </a>
-                            </span>
-                                                                                </p>
-                        <span class="t2"><a target="_blank" title="安波福中央电气（上海）有限公司" href="http://aptiv.51job.com">安波福中央电气（上海）有限公司</a></span>
+                        <span class="t2"><a target="_blank" title="PwC 普华永道" href="https://jobs.51job.com/all/co269327.html">PwC 普华永道</a></span>
                         <span class="t3">北京</span>
                         <span class="t4"></span>
-                        <span class="t5">06-13</span>
+                        <span class="t5">06-14</span>
                     </div>
                                                                                                     <div class="el">
                         <p class="t1 ">
                             <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114389220" jt="0" style="display:none" />
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114357618" jt="0" style="display:none" />
                             <span>
-                                <a target="_blank" title="产业研究岗/研究助理岗" href="https://jobs.51job.com/beijing-xcq/114389220.html?s=01&t=0" onmousedown="">
-                                    产业研究岗/研究助理岗                                </a>
+                                <a target="_blank" title="Product Marketing Engineer, Softstarter(69230627)" href="https://jobs.51job.com/beijing/114357618.html?s=01&t=0" onmousedown="">
+                                    Product Marketing Engineer, Softstarter(69230627)                                </a>
                             </span>
                                                                                 </p>
-                        <span class="t2"><a target="_blank" title="招商证券股份有限公司" href="https://jobs.51job.com/all/co2440579.html">招商证券股份有限公司</a></span>
-                        <span class="t3">北京-西城区</span>
+                        <span class="t2"><a target="_blank" title="北京ABB电气传动系统有限公司" href="https://jobs.51job.com/all/co103879.html">北京ABB电气传动系统有限公司</a></span>
+                        <span class="t3">北京</span>
+                        <span class="t4"></span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114366146" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="医药信息沟通专员-北京-DBU" href="http://msdchina.51job.com/sc/show_job_detail.php?jobid=114366146" onmousedown="jobview('114366146');">
+                                    医药信息沟通专员-北京-DBU                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="默沙东（中国）投资有限公司" href="http://msdchina.51job.com">默沙东（中国）投资有限公司</a></span>
+                        <span class="t3">北京</span>
+                        <span class="t4">1-3万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114369656" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="Sr Executive Assistant/资深行政助理" href="http://roche.51job.com/sc/show_job_detail.php?jobid=114369656" onmousedown="jobview('114369656');">
+                                    Sr Executive Assistant/资深行政助理                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="罗氏诊断产品（上海）有限公司" href="http://roche.51job.com/">罗氏诊断产品（上海）有限公司</a></span>
+                        <span class="t3">北京</span>
+                        <span class="t4"></span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114396493" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="语文主讲-清北网校项目" href="https://jobs.51job.com/beijing/114396493.html?s=01&t=0" onmousedown="">
+                                    语文主讲-清北网校项目                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="字节跳动" href="https://jobs.51job.com/all/co2758227.html">字节跳动</a></span>
+                        <span class="t3">北京</span>
+                        <span class="t4">1-2万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114394296" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="相机应用高级工程师" href="https://jobs.51job.com/beijing-hdq/114394296.html?s=01&t=0" onmousedown="">
+                                    相机应用高级工程师                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="联想集团" href="https://jobs.51job.com/all/co2368313.html">联想集团</a></span>
+                        <span class="t3">北京-海淀区</span>
+                        <span class="t4">2.5-3万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114393813" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="web前端工程师(J18284)" href="https://jobs.51job.com/beijing-hdq/114393813.html?s=01&t=0" onmousedown="">
+                                    web前端工程师(J18284)                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="携程旅行网业务区" href="https://jobs.51job.com/all/co2656195.html">携程旅行网业务区</a></span>
+                        <span class="t3">北京-海淀区</span>
                         <span class="t4">1-1.5万/月</span>
-                        <span class="t5">06-13</span>
+                        <span class="t5">06-14</span>
                     </div>
                                                                                                     <div class="el">
                         <p class="t1 ">
                             <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
-                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114388924" jt="0" style="display:none" />
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114391032" jt="0" style="display:none" />
                             <span>
-                                <a target="_blank" title="项目总监-兰州" href="https://jobs.51job.com/lanzhou/114388924.html?s=01&t=0" onmousedown="">
-                                    项目总监-兰州                                </a>
+                                <a target="_blank" title="HR Campus Recruiting Manager" href="https://jobs.51job.com/beijing/114391032.html?s=01&t=0" onmousedown="">
+                                    HR Campus Recruiting Manager                                </a>
                             </span>
                                                                                 </p>
-                        <span class="t2"><a target="_blank" title="方正国际软件（北京）有限公司" href="https://jobs.51job.com/all/co3349845.html">方正国际软件（北京）有限公司</a></span>
-                        <span class="t3">异地招聘</span>
-                        <span class="t4">0.8-2万/月</span>
-                        <span class="t5">06-13</span>
+                        <span class="t2"><a target="_blank" title="毕马威中国 KPMG China" href="https://jobs.51job.com/all/co2834168.html">毕马威中国 KPMG China</a></span>
+                        <span class="t3">北京</span>
+                        <span class="t4">1.5-3.5万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114385173" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="BMC测试工程师" href="https://jobs.51job.com/beijing/114385173.html?s=01&t=0" onmousedown="">
+                                    BMC测试工程师                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="中国电子科技集团公司第十五研究所（华北计算技术研究所）" href="https://jobs.51job.com/all/co2669753.html">中国电子科技集团公司第十五研究所...</a></span>
+                        <span class="t3">北京</span>
+                        <span class="t4">1-2万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114384322" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="酒店业务BD（怀柔/顺义/平谷）" href="https://jobs.51job.com/beijing-myq/114384322.html?s=01&t=0" onmousedown="">
+                                    酒店业务BD（怀柔/顺义/平谷）                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="携程旅行网北京分公司" href="https://jobs.51job.com/all/co735752.html">携程旅行网北京分公司</a></span>
+                        <span class="t3">北京-密云区</span>
+                        <span class="t4">0.8-1.4万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114384224" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="（SFAE） Back Office Sales  室内销售工程师（第三方合同）(北京) （116247）" href="https://jobs.51job.com/beijing/114384224.html?s=01&t=0" onmousedown="">
+                                    （SFAE） Back Office Sales  室内销售工程师（第三方合同）(北京) （116247）                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="西门子工厂自动化工程有限公司(SFAE)" href="https://jobs.51job.com/all/co521816.html">西门子工厂自动化工程有限公司(SFAE)</a></span>
+                        <span class="t3">北京</span>
+                        <span class="t4"></span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114381705" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="高级应收会计 Sr. Revenue AR Accountant" href="https://jobs.51job.com/beijing-cyq/114381705.html?s=01&t=0" onmousedown="">
+                                    高级应收会计 Sr. Revenue AR Accountant                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="Tesla特斯拉汽车" href="https://jobs.51job.com/all/co3101056.html">Tesla特斯拉汽车</a></span>
+                        <span class="t3">北京-朝阳区</span>
+                        <span class="t4">1.5-2万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114379476" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="品质风险管理担当（日语）" href="https://jobs.51job.com/beijing-cyq/114379476.html?s=01&t=0" onmousedown="">
+                                    品质风险管理担当（日语）                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="松下电器（中国）有限公司" href="https://jobs.51job.com/all/co3870433.html">松下电器（中国）有限公司</a></span>
+                        <span class="t3">北京-朝阳区</span>
+                        <span class="t4">0.7-1万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114378266" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="Tax Analyst" href="https://jobs.51job.com/beijing-cyq/114378266.html?s=01&t=0" onmousedown="">
+                                    Tax Analyst                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="亚马逊中国" href="https://jobs.51job.com/all/co100647.html">亚马逊中国</a></span>
+                        <span class="t3">北京-朝阳区</span>
+                        <span class="t4">1.2-1.7万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 tg1">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114375855" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="Business Support Intern" href="https://jobs.51job.com/beijing-cyq/114375855.html?s=01&t=0" onmousedown="">
+                                    Business Support Intern                                </a>
+                            </span>
+                            <img width="29" height="18" src="//img01.51jobcdn.com/im/jobs/tag_shixi.png" alt="实习">                                                    </p>
+                        <span class="t2"><a target="_blank" title="雪佛龙中国下游业务" href="https://jobs.51job.com/all/co2801020.html">雪佛龙中国下游业务</a></span>
+                        <span class="t3">北京-朝阳区</span>
+                        <span class="t4">120元/天</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114375186" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="E-commerce Manager" href="http://bayer.51job.com/sc/show_job_detail.php?jobid=114375186" onmousedown="jobview('114375186');">
+                                    E-commerce Manager                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="拜耳（中国）有限公司" href="http://bayer.51job.com">拜耳（中国）有限公司</a></span>
+                        <span class="t3">北京</span>
+                        <span class="t4"></span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114375168" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="大区总监" href="https://jobs.51job.com/beijing-cyq/114375168.html?s=01&t=0" onmousedown="">
+                                    大区总监                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="前锦网络信息技术（上海）有限公司" href="https://jobs.51job.com/all/co3708561.html">前锦网络信息技术（上海）有限公司</a></span>
+                        <span class="t3">北京-朝阳区</span>
+                        <span class="t4">60-100万/年</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114374501" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="销售主管" href="http://sika.51job.com/job_detail.php?jobid=114374501" onmousedown="jobview('114374501');">
+                                    销售主管                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="西卡（中国）有限公司" href="http://sika.51job.com">西卡（中国）有限公司</a></span>
+                        <span class="t3">北京-朝阳区</span>
+                        <span class="t4">0.8-1万/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114373701" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="Campaign Specialist/活动专员" href="https://jobs.51job.com/beijing-cyq/114373701.html?s=01&t=0" onmousedown="">
+                                    Campaign Specialist/活动专员                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="上海贝塔斯曼商业服务有限公司北京分公司" href="https://jobs.51job.com/all/co3259972.html">上海贝塔斯曼商业服务有限公司北京...</a></span>
+                        <span class="t3">北京-朝阳区</span>
+                        <span class="t4">6-8千/月</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114371691" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="地区经理--京津（国药事业部）" href="https://jobs.51job.com/beijing/114371691.html?s=01&t=0" onmousedown="">
+                                    地区经理--京津（国药事业部）                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="华润三九医药股份有限公司" href="https://jobs.51job.com/all/co174689.html">华润三九医药股份有限公司</a></span>
+                        <span class="t3">北京</span>
+                        <span class="t4">20-30万/年</span>
+                        <span class="t5">06-14</span>
+                    </div>
+                                                                                                    <div class="el">
+                        <p class="t1 ">
+                            <em class="check" name="delivery_em" onclick="checkboxClick(this)"></em>
+                            <input class="checkbox" type="checkbox" name="delivery_jobid" value="114369111" jt="0" style="display:none" />
+                            <span>
+                                <a target="_blank" title="海尔&倍世产品销售总监" href="https://jobs.51job.com/beijing/114369111.html?s=01&t=0" onmousedown="">
+                                    海尔&amp;倍世产品销售总监                                </a>
+                            </span>
+                                                                                </p>
+                        <span class="t2"><a target="_blank" title="海尔电器集团有限公司" href="https://jobs.51job.com/all/co2210611.html">海尔电器集团有限公司</a></span>
+                        <span class="t3">北京</span>
+                        <span class="t4">20-30万/年</span>
+                        <span class="t5">06-14</span>
                     </div>
                                         <!--列表表格 END-->
         <div class="dw_line"></div>
@@ -1905,9 +1905,9 @@ window.cfg.isJobview = '1';
     <input type="hidden" name="ppc_num"			value="0">
     <input type="hidden" name="ads_num"			value="0">
     <input type="hidden" name="personnel_department_ad_num"   value="0">
-    <input type="hidden" name="jobid_list"		value="111628726~114149896~114222858~109921430~111609900~114396493~113466480~114394296~114393813~114391032~108008422~114385173~107348690~114375855~106851700~114384322~114383949~114384224~114381705~114381266~114379476~114378266~114359727~114375186~113757853~114374501~114373701~114369111~114371691~114369656~114367985~114366676~114357391~113075043~114361393~114359732~114357618~111269847~111386691~104525080~114356173~114396170~114395775~114395090~105676686~114394289~110093650~114392702~114389220~114388924">
+    <input type="hidden" name="jobid_list"		value="108792352~113899731~104817056~114397107~110683794~114297291~113973695~114300486~111135304~72476529~109286897~114144573~109996463~99067193~74687811~113643288~104253876~112445675~105255646~114277695~114223017~111628726~114149347~114222858~109921430~111609900~113466480~102331983~111386691~114381266~114357618~114366146~114369656~114396493~114394296~114393813~114391032~114385173~114384322~114384224~114381705~114379476~114378266~114375855~114375186~114375168~114374501~114373701~114371691~114369111">
     <input type="hidden" name="jobid_count"		value="100000">
-    <input type="hidden" name="schTime"			value="4319">
+    <input type="hidden" name="schTime"			value="4178">
     <input type="hidden" name="confirmdate"	value="9">
     <input type="hidden" name="welfare"	value="">
     <input type="hidden" name="fromType"		value="">
@@ -1973,11 +1973,11 @@ window.cfg.isJobview = '1';
                 <a href="//company.51job.com" target="_blank">企业名录</a>
             </div>
             <div class="code c_first">
-                <img width="80" height="80" src="//img01.51jobcdn.com/im/2016/code/web_bottom.png" alt="APP下载">
+                <img width="80" height="80" src="//img06.51jobcdn.com/im/2016/code/web_bottom.png" alt="APP下载">
                 <span><a href="http://app.51job.com/index.html">APP下载</a></span>
             </div>
             <div class="code">
-                <img width="80" height="80" src="//img01.51jobcdn.com/im/2016/code/web_fuwuhao_bottom.png" alt="微信服务号">
+                <img width="80" height="80" src="//img05.51jobcdn.com/im/2016/code/web_fuwuhao_bottom.png" alt="微信服务号">
                 <span>微信服务号</span>
             </div>
             <div class="clear"></div>
