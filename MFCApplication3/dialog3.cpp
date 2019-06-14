@@ -38,6 +38,7 @@ void dialog3::DoDataExchange(CDataExchange* pDX)
 BEGIN_MESSAGE_MAP(dialog3, CDialogEx)
 	ON_BN_CLICKED(IDOK, &dialog3::OnBnClickedOk)
 	ON_EN_CHANGE(IDC_EDIT4, &dialog3::OnEnChangeEdit4)
+	ON_EN_CHANGE(IDC_EDIT13, &dialog3::OnEnChangeEdit13)
 END_MESSAGE_MAP()
 
 
@@ -79,4 +80,15 @@ BOOL dialog3::OnInitDialog()
 	UpdateWindow();
 	return TRUE;  // return TRUE unless you set the focus to a control
 				  // 异常: OCX 属性页应返回 FALSE
+}
+
+
+void dialog3::OnEnChangeEdit13()
+{
+	// TODO:  如果该控件是 RICHEDIT 控件，它将不
+	// 发送此通知，除非重写 CDialogEx::OnInitDialog()
+	// 函数并调用 CRichEditCtrl().SetEventMask()，
+	// 同时将 ENM_CHANGE 标志“或”运算到掩码中。
+
+	// TODO:  在此添加控件通知处理程序代码
 }

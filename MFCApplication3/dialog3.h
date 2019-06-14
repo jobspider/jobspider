@@ -32,4 +32,5 @@ public:
 	CEdit companyInformation;
 	afx_msg void OnEnChangeEdit4();
 	virtual BOOL OnInitDialog();
+	afx_msg void OnEnChangeEdit13();
 };
